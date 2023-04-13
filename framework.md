@@ -2,7 +2,7 @@ This plan outlines the types of services LOA Labs aims to provide as a validator
 
 # 1. Infrastructure
 
-## A. [LOA Labs Validator Node](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd):
+## A. LOA Labs Validator Node:
 
 - Bare Metal
 - Offshore
@@ -11,9 +11,10 @@ This plan outlines the types of services LOA Labs aims to provide as a validator
 - Low 5.5% Commission
 - 10% of earnings directly support Ecological Regeneration
 
-## B. Relayer Nodes for all LOA Chains: Cosmos x:
+## B. Relayer Node Operator between all LOA Chains:
 
-- Regen
+- [Cosmos Hub](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
+- [Regen](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h)
 - Juno
 - Gravity Bridge
 - Quicksilver
