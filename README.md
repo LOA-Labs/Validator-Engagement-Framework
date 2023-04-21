@@ -4,7 +4,7 @@ Repo outlines how LOA Labs validator engages with each chain and logs of deliver
 
 This plan covers the types of services LOA Labs aims to provide as a validator and active, valuable member of the community. Meeting all of these metrics is the objective, however service and availability may be subject to variations due to community restraints and technical limitations.
 
-# 1. Infrastructure
+# 1. **[I]** Infrastructure
 
 ## A. LOA Labs Validator Node:
 
@@ -43,17 +43,19 @@ This plan covers the types of services LOA Labs aims to provide as a validator a
   - Watch Whale movements (staking and txs)
 - [Tenderduty](https://github.com/blockpane/tenderduty)
 
-# 2. Governance
+# 2. **[G]** Governance
 
-## A. 100% Voting Record (since bonded height)
+## A. Actively Posting & Proposing Chain Governance
 
-## B. Follow and Comment on all Pre-Chain Proposal Discussions
+## B. 95%+ Voting Record (since bonded height)
 
-## C. Support and help galvanize ReFi initiates in community
+## C. Follow and Comment on all Pre-Chain Proposal Discussions
+
+## D. Support and help galvanize ReFi initiates in community
 
 ## D. Help to guide and define culture around [Decentralized Blockchain Governance](https://gov.vs.loalabs.io) best practices
 
-# 3. Public Goods
+# 3. **[P]** Public Goods
 
 ## A. Building Interchain ReFi Relationships
 
@@ -67,9 +69,9 @@ This plan covers the types of services LOA Labs aims to provide as a validator a
 
 ## F. % Validator earnings directly support ReFi
 
-# 4. Media
+# 4. **[M]** Media
 
-## A. Weekly Tweets/Retweets
+## A. Weekly Tweets / Retweets / Spaces / Community Calls
 
 - Chain News / Announcements / Events
 - Commentaries / Reviews / Previews
