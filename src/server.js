@@ -106,6 +106,7 @@ app.listen(PORT, () => {
 function makeTypes(types) {
   console.log(types)
   return types?.data?.map(type => {
+    console.log(type)
     return `${type.attributes.parent?.data.attributes.abbreviation}-${type.id}`;
   }).join(', ');
 }
