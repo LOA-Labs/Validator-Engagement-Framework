@@ -48,16 +48,18 @@ app.get('/generate-changelog', async (req, res) => {
       
       const changelogHeader = `# ${network.pretty_name} (${network.chain_id})
 
-## ${org.name} Resources
+## ${org.name} Organization Resources
+
 * Website ${org.website}
 * Twitter [@${org.twitter}](https://twitter.com/${org.twitter})
 * Discord ${org.discord}
 
-## ${network.chain_id} Resources
+## ${network.chain_id} Chain Resources
+
 * Repo ${network.repo}
 * Explorer ${network.explorer}
 * Validator Status ${network.status}
-* Earn rewards by delegating to LOA Labs ${network.delegate}
+* Delegating to LOA Labs to [Earn Rewards via Keplr](${network.delegate})
 
 ${network.desc} 
 

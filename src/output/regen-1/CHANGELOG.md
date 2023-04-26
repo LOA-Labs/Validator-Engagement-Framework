@@ -1,15 +1,17 @@
 # Regen Mainnet (regen-1)
 
-## Regen Network Resources
+## Regen Network Organization Resources
+
 * Website https://regen.network
 * Twitter [@null](https://twitter.com/null)
 * Discord null
 
-## regen-1 Resources
+## regen-1 Chain Resources
+
 * Repo https://github.com/regen-network/
 * Explorer https://www.mintscan.io/regen/
 * Validator Status https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h
-* Earn rewards by delegating to LOA Labs https://wallet.keplr.app/chains/regen?modal=validator&chain=regen-1&validator_address=regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h&referral=true
+* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/regen?modal=validator&chain=regen-1&validator_address=regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h&referral=true)
 
 Regen network mainnet, leading the way in Regenerative Financial solutions and LOA Labs is a key partner in providing marketing and technical solutions. 
 
