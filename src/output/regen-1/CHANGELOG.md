@@ -17,4 +17,6 @@ Regen network mainnet, leading the way in Regenerative Financial solutions and L
 | Date | Type | Title | Desc | Link |
 | :----------- | :---- | :------------ | :-------------------- | :------------ |
 
-,,
+| 2021-04-16 | undefined-1 | Create Validator | Top tier validator service and network support.  | https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h |
+| 2023-02-21 |  | Prop 26 Proposer | Liquid Staking: Enabling ICA on Regen for Quicksilver | https://www.mintscan.io/regen/proposals/26 |
+| 2023-02-24 |  | Prop 27 Proposer | Increase Minimum Proposal Deposit to Prevent Spam Attacks | https://www.mintscan.io/regen/proposals/27 |

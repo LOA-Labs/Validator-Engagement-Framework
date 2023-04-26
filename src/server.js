@@ -32,7 +32,7 @@ app.get('/generate-changelog', async (req, res) => {
       if (!tasksByChainId[chainId]) {
         tasksByChainId[chainId] = [];
       }
-      tasksByChainId[chainId].push({ task, network, org });
+      tasksByChainId[chainId].push({ task , network, org });
     }
 
     for (const chainId in tasksByChainId) {
@@ -66,18 +66,13 @@ ${network.desc}
 | :----------- | :---- | :------------ | :-------------------- | :------------ |
 
 `
-   
-      const changelogContent = tasksByChainId[chainId]
-        .map(({ task }) => {console.log(task)})
-      
-      
-   
-      // const changelogContent = tasksByChainId[chainId]
-      //   .map(({ task }) => `| ${task.date} | ${makeTypes(task.types)} | ${task.title} | ${task.desc} | ${task.link} |`)
-      //   .join('\n');
-      
-      
 
+   
+    const changelogContent = tasksByChainId[chainId]
+      .map(({ task: { attributes :{ date, types, title, desc, link } } }) => {
+        return `| ${date} | ${makeTypes(types)} | ${title} | ${desc} | ${link} |`;
+      })
+      .join('\n');
 
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
@@ -111,6 +106,6 @@ app.listen(PORT, () => {
 function makeTypes(types) {
   console.log(types)
   return types?.data?.map(type => {
-    return `${type.attributes.parent.data.attributes.abbreviation}-${type.id}`;
+    return `${type.attributes.parent?.data.attributes.abbreviation}-${type.id}`;
   }).join(', ');
 }
