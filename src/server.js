@@ -11,12 +11,9 @@ app.get('/generate-changelog', async (req, res) => {
     
     
     for (const task of tasks) {
-      console.log(task.attributes)
-      console.log(task.attributes.network)
-      console.log(task.attributes.network.data.attributes)
       const chainId = task.attributes.network.data.attributes.chain_id;
       console.log(chainId)
-      const outputDir = `../output/${chainId}`;
+      const outputDir = `./output/${chainId}`;
 
       await fs.ensureDir(outputDir);
 
