@@ -19,7 +19,7 @@ app.get('/generate-changelog', async (req, res) => {
   try {
     const {
       data: { data: tasks },
-    } = await axios.get('http://localhost:1337/api/tasks?populate=network.org,types');
+    } = await axios.get('http://localhost:1337/api/tasks?populate=network.org,types.parent');
 
     const tasksByChainId = {};
 
