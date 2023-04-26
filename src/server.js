@@ -19,7 +19,7 @@ app.get('/generate-changelog', async (req, res) => {
   try {
     const {
       data: { data: tasks },
-    } = await axios.get('http://localhost:1337/api/tasks?populate[network][populate][0]=org');
+    } = await axios.get('http://localhost:1337/api/tasks?populate=network.org,types');
 
     const tasksByChainId = {};
 
@@ -68,7 +68,7 @@ ${network.desc}
 `
       
       const changelogContent = tasksByChainId[chainId]
-        .map(({ task }) => `- Task ID: ${task.id}`)
+        .map(({ task }) => `| ${task.date} | ${makeTypes(task.types)} | ${task.title} | ${task.desc} | ${task.link} |`)
         .join('\n');
 
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
@@ -98,3 +98,10 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+
+function makeTypes(types) {
+  return types?.data?.map(type => {
+    return `${type.attributes.parent.data.attributes.abbreviation}-${type.id}`;
+  }).join(', ');
+}
