@@ -64,13 +64,14 @@ ${network.desc}
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
 | :----------- | :---- | :------------ | :-------------------- | :------------ |
+
 `
       
       const changelogContent = tasksByChainId[chainId]
         .map(({ task }) => `- Task ID: ${task.id}`)
         .join('\n');
 
-      await fs.writeFile(changelogPath, changelogContent);
+      await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
 
     exec('git add . && git commit -m "Update CHANGELOG.md"', (error, stdout, stderr) => {
