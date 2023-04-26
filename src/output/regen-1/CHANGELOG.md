@@ -17,6 +17,4 @@ Regen network mainnet, leading the way in Regenerative Financial solutions and L
 | Date | Type | Title | Desc | Link |
 | :----------- | :---- | :------------ | :-------------------- | :------------ |
 
-| undefined | undefined | undefined | undefined | undefined |
-| undefined | undefined | undefined | undefined | undefined |
-| undefined | undefined | undefined | undefined | undefined |
+,,

@@ -66,10 +66,18 @@ ${network.desc}
 | :----------- | :---- | :------------ | :-------------------- | :------------ |
 
 `
-      
+   
       const changelogContent = tasksByChainId[chainId]
-        .map(({ task }) => `| ${task.date} | ${makeTypes(task.types)} | ${task.title} | ${task.desc} | ${task.link} |`)
-        .join('\n');
+        .map(({ task }) => {console.log(task)})
+      
+      
+   
+      // const changelogContent = tasksByChainId[chainId]
+      //   .map(({ task }) => `| ${task.date} | ${makeTypes(task.types)} | ${task.title} | ${task.desc} | ${task.link} |`)
+      //   .join('\n');
+      
+      
+
 
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
@@ -101,6 +109,7 @@ app.listen(PORT, () => {
 
 
 function makeTypes(types) {
+  console.log(types)
   return types?.data?.map(type => {
     return `${type.attributes.parent.data.attributes.abbreviation}-${type.id}`;
   }).join(', ');
