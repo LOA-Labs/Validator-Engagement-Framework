@@ -168,6 +168,6 @@ async function deleteMarkdownFilesExceptReadme(dirPath) {
   }
 }
 
-function replaceNewlines(text, replacement = '*') {
+function replaceNewlines(text, replacement = '<br><br>') {
   return text.replace(/\r?\n|\r/g, replacement);
 }
