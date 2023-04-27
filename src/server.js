@@ -167,3 +167,7 @@ async function deleteMarkdownFilesExceptReadme(dirPath) {
     console.error(`Error deleting Markdown files: ${error}`);
   }
 }
+
+function replaceNewlines(text, replacement = '*') {
+  return text.replace(/\r?\n|\r/g, replacement);
+}
