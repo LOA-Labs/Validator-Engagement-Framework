@@ -157,6 +157,7 @@ function replaceUrlsWithMarkdownLinks(text) {
 async function deleteMarkdownFilesExceptReadme(dirPath) {
   try {
     const files = await fs.readdir(dirPath);
+    console.log(files)
     const markdownFiles = files.filter((file) => file.endsWith('.md') && file !== 'README.md');
 
     for (const file of markdownFiles) {
