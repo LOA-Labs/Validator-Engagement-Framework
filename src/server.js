@@ -26,8 +26,6 @@ function extractRelationalData(root, relationBranches) {
 }
 
 
-
-
 app.get('/generate-changelog', async (req, res) => {
   try {
     const {
@@ -64,7 +62,7 @@ const org = extractRelationalData(task, ["networks", "org"])[0];
       await fs.ensureDir(outputDir);
       
       const { network, org } = tasksByChainId[chainId][0];
-      const changelogPath = `${outputDir}/${network.pretty_name} (${chainId}) CHANGELOG.md`;
+      const changelogPath = `${outputDir}/_CHANGELOG ${network.pretty_name} (${chainId}).md`;
       await fs.ensureFile(changelogPath);
 
       //will all be the same, get first to use as header for all tasks
