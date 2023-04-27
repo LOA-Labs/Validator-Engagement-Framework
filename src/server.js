@@ -89,7 +89,7 @@ ${network.desc}
         return;
       }
       console.log(`stdout: ${stdout}`);
-      console.error(`stderr: ${stderr}`);
+      if(stderr)console.error(`stderr: ${stderr}`);
     });
 
     res.status(200).send('Changelogs generated and pushed to the repository');
@@ -106,9 +106,7 @@ app.listen(PORT, () => {
 
 
 function makeTypes(types) {
-  console.log(types)
   return types?.data?.map(type => {
-    console.log(type)
     return `${type.attributes.parent?.data.attributes.abbreviation}-${type.id}`;
   }).join(', ');
 }
