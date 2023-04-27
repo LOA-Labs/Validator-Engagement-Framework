@@ -26,8 +26,8 @@ app.get('/generate-changelog', async (req, res) => {
 
     for (const task of tasks) {
 
-  const network = extractRelationalData(task, ["network"]);
-  const org = extractRelationalData(task, ["network", "org"]);
+  const network = extractRelationalData(task, ["networks"]);
+  const org = extractRelationalData(task, ["networks", "org"]);
 
   if (!network) {
     console.warn('Skipping a task with missing network data');
