@@ -9,16 +9,16 @@ function extractRelationalData(root, relationBranches) {
   if (!root || !root.attributes || relationBranches.length === 0) {
     return root ? root.attributes : undefined;
   }
-  
+
   const currentRelation = relationBranches[0];
   const remainingBranches = relationBranches.slice(1);
   const nextRootArray = root.attributes[currentRelation]?.data || [];
-  
+
   if (Array.isArray(nextRootArray)) {
     const resultArray = nextRootArray.map(item => {
       return extractRelationalData(item, remainingBranches);
     });
-    
+
     return resultArray;
   } else {
     return extractRelationalData(nextRootArray, remainingBranches);
@@ -36,31 +36,31 @@ app.get('/generate-changelog', async (req, res) => {
 
     for (const task of tasks) {
 
-const network = extractRelationalData(task, ["networks"])[0];
-const org = extractRelationalData(task, ["networks", "org"])[0];
+      const network = extractRelationalData(task, ["networks"])[0];
+      const org = extractRelationalData(task, ["networks", "org"])[0];
 
 
-  if (!network) {
-    console.warn('Skipping a task with missing network data');
-    continue;
-  }
+      if (!network) {
+        console.warn('Skipping a task with missing network data');
+        continue;
+      }
 
-  const chainId = network.chain_id;
+      const chainId = network.chain_id;
 
-  if (!tasksByChainId[chainId]) {
-    tasksByChainId[chainId] = [];
-  }
-  tasksByChainId[chainId].push({ task, network, org });
-}
+      if (!tasksByChainId[chainId]) {
+        tasksByChainId[chainId] = [];
+      }
+      tasksByChainId[chainId].push({ task, network, org });
+    }
 
 
     const outputDir = `../`;
     await deleteMarkdownFilesExceptReadme(outputDir)
-  
+
     for (const chainId in tasksByChainId) {
 
       await fs.ensureDir(outputDir);
-      
+
       const { network, org } = tasksByChainId[chainId][0];
       const changelogPath = `${outputDir}/_CHANGELOG ${network.pretty_name} (${chainId}).md`;
       await fs.ensureFile(changelogPath);
@@ -92,12 +92,12 @@ ${network.desc}
 | Date | Type | Title | Desc | Link |
 | :----------- | :---- | :------------ | :-------------------------------- | :---- |\n`
 
-   
-    const changelogContent = tasksByChainId[chainId]
-      .map(({ task: { attributes :{ date, types, title, desc, link } } }) => {
-        return `| ${date} | ${makeTypes(types)} | ${title} | ${replaceUrlsWithMarkdownLinks(desc)} | [${truncateText(link,30)}](${link}) |`;
-      })
-      .join('\n');
+
+      const changelogContent = tasksByChainId[chainId]
+        .map(({ task: { attributes: { date, types, title, desc, link } } }) => {
+          return `| ${date} | ${makeTypes(types)} | ${title} | ${replaceUrlsWithMarkdownLinks(desc)} | [${truncateText(link, 30)}](${link}) |`;
+        })
+        .join('\n');
 
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
@@ -112,7 +112,7 @@ ${network.desc}
         return;
       }
       console.log(`stdout: ${stdout}`);
-      if(stderr)console.error(`stderr: ${stderr}`);
+      if (stderr) console.error(`stderr: ${stderr}`);
     });
 
     res.status(200).send('<style>body{background:#555;}</style>Changelogs generated and pushed to the repository');
@@ -141,7 +141,7 @@ function truncateText(text, maxLength) {
 
   const leftHalf = Math.floor((maxLength - 3) / 2);
   const rightHalf = maxLength - 3 - leftHalf;
-  
+
   return text.substring(0, leftHalf) + '...' + text.substring(text.length - rightHalf);
 }
 
