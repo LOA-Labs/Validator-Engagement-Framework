@@ -35,14 +35,14 @@ app.get('/generate-changelog', async (req, res) => {
 
 
     const outputDir = `../`;
-    await deleteMarkdownFilesExceptReadme(outputDir)
+    await deleteChangelogFiles(outputDir)
 
     for (const chainId in tasksByChainId) {
 
       await fs.ensureDir(outputDir);
 
       const { network, org } = tasksByChainId[chainId][0];
-      const changelogPath = `${outputDir}/_CHANGELOG: ${network.pretty_name} (${chainId}).md`;
+      const changelogPath = `${outputDir}/_CHANGELOG: ${chainId} ${network.pretty_name}.md`;
       await fs.ensureFile(changelogPath);
 
       //will all be the same, get first to use as header for all tasks
@@ -153,18 +153,18 @@ function replaceUrlsWithMarkdownLinks(text) {
   });
 }
 
-async function deleteMarkdownFilesExceptReadme(dirPath) {
+async function deleteChangelogFiles(dirPath) {
   try {
     const files = await fs.readdir(dirPath);
-    const markdownFiles = files.filter((file) => file.endsWith('.md') && file !== 'README.md');
+    const changelogFiles = files.filter((file) => file.startsWith('_'));
 
-    for (const file of markdownFiles) {
+    for (const file of changelogFiles) {
       const filePath = path.join(dirPath, file);
       await fs.unlink(filePath);
       console.log(`Deleted: ${filePath}`);
     }
   } catch (error) {
-    console.error(`Error deleting Markdown files: ${error}`);
+    console.error(`Error deleting Changelog files: ${error}`);
   }
 }
 
