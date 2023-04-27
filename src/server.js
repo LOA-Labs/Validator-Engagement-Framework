@@ -24,7 +24,7 @@ app.get('/generate-changelog', async (req, res) => {
     } = await axios.get('http://localhost:1337/api/tasks?populate=network.org,types.parent');
 
     const tasksByChainId = {};
-
+console.log(tasks)
     for (const task of tasks) {
       const network = extractRelationalData(task, ["network"]);
       const org = extractRelationalData(task,["network","org"]);
