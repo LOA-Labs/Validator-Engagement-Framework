@@ -6,16 +6,15 @@ const { exec } = require('child_process');
 const app = express();
 
 function extractRelationalData(root, relationBranches) {
-  if (relationBranches.length === 0) {
-    return root.attributes;
+  if (!root || !root.attributes || relationBranches.length === 0) {
+    return root ? root.attributes : undefined;
   }
   const currentRelation = relationBranches[0];
   const remainingBranches = relationBranches.slice(1);
-  if (root.attributes[currentRelation]) {
-    const nextRoot = root.attributes[currentRelation].data;
-    return extractRelationalData(nextRoot, remainingBranches);
-  } else return {}
+  const nextRoot = root.attributes[currentRelation] ? root.attributes[currentRelation].data : undefined;
+  return extractRelationalData(nextRoot, remainingBranches);
 }
+
 
 app.get('/generate-changelog', async (req, res) => {
   try {
@@ -25,17 +24,23 @@ app.get('/generate-changelog', async (req, res) => {
 
     const tasksByChainId = {};
 
-    for (const task of tasks) {
-      const network = extractRelationalData(task, ["network"]);
-      const org = extractRelationalData(task,["network","org"]);
-console.log(network)
-      const chainId = network.chain_id;
+for (const task of tasks) {
+  const network = extractRelationalData(task, ["network"]);
+  const org = extractRelationalData(task, ["network", "org"]);
 
-      if (!tasksByChainId[chainId]) {
-        tasksByChainId[chainId] = [];
-      }
-      tasksByChainId[chainId].push({ task , network, org });
-    }
+  if (!network) {
+    console.warn('Skipping a task with missing network data');
+    continue;
+  }
+
+  const chainId = network.chain_id;
+
+  if (!tasksByChainId[chainId]) {
+    tasksByChainId[chainId] = [];
+  }
+  tasksByChainId[chainId].push({ task, network, org });
+}
+
 
     for (const chainId in tasksByChainId) {
       console.log(chainId)
@@ -118,4 +123,4 @@ function truncateText(text, maxLength) {
   return text.substring(0, maxLength - 3) + '...';
 }
 
-axios.get('http://localhost:3000/generate-changelog');
+// axios.get('http://localhost:3000/generate-changelog');
