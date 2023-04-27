@@ -56,14 +56,15 @@ const org = extractRelationalData(task, ["networks", "org"])[0];
 }
 
 
-      const outputDir = `../Engagement-Logs/`;
-      await fs.emptyDir(outputDir);
+    const outputDir = `../`;
+    await deleteMarkdownFilesExceptReadme(outputDir)
+  
     for (const chainId in tasksByChainId) {
 
       await fs.ensureDir(outputDir);
       
       const { network, org } = tasksByChainId[chainId][0];
-      const changelogPath = `${outputDir}/${network.pretty_name} (${chainId})/CHANGELOG.md`;
+      const changelogPath = `${outputDir}/${network.pretty_name} (${chainId}) CHANGELOG.md`;
       await fs.ensureFile(changelogPath);
 
       //will all be the same, get first to use as header for all tasks
@@ -145,6 +146,7 @@ function truncateText(text, maxLength) {
   
   return text.substring(0, leftHalf) + '...' + text.substring(text.length - rightHalf);
 }
+
 function replaceUrlsWithMarkdownLinks(text) {
   const urlRegex = /((http|https):\/\/[\w?=&.\/\-;#~%\-]+(\.[a-z]{2,4})?[^.\s]+)/gi;
 
@@ -154,4 +156,17 @@ function replaceUrlsWithMarkdownLinks(text) {
   });
 }
 
+async function deleteMarkdownFilesExceptReadme(dirPath) {
+  try {
+    const files = await fs.readdir(dirPath);
+    const markdownFiles = files.filter((file) => file.endsWith('.md') && file !== 'README.md');
 
+    for (const file of markdownFiles) {
+      const filePath = path.join(dirPath, file);
+      await fs.unlink(filePath);
+      console.log(`Deleted: ${filePath}`);
+    }
+  } catch (error) {
+    console.error(`Error deleting Markdown files: ${error}`);
+  }
+}
