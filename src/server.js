@@ -106,7 +106,7 @@ ${network.desc}
     res.status(200).send('<style>body{background:#555;}</style>Changelogs generated and pushed to the repository');
   } catch (error) {
     console.error(error);
-    res.status(500).send('An error occurred while generating changelogs');
+    res.status(500).send('<style>body{background:#555;}</style>An error occurred while generating changelogs');
   }
 });
 
