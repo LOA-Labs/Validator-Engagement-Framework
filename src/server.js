@@ -15,22 +15,24 @@ app.get('/generate-changelog', async (req, res) => {
     const tasksByChainId = {};
 
     for (const task of tasks) {
+      const networks = extractRelationalData(task, ["networks"]);
+      const orgs = extractRelationalData(task, ["networks", "org"]);
 
-      const network = extractRelationalData(task, ["networks"])[0];
-      const org = extractRelationalData(task, ["networks", "org"])[0];
-
-
-      if (!network) {
+      if (networks.length === 0) {
         console.warn('Skipping a task with missing network data');
         continue;
       }
 
-      const chainId = network.chain_id;
+      for (let i = 0; i < networks.length; i++) {
+        const network = networks[i];
+        const org = orgs[i];
+        const chainId = network.chain_id;
 
-      if (!tasksByChainId[chainId]) {
-        tasksByChainId[chainId] = [];
+        if (!tasksByChainId[chainId]) {
+          tasksByChainId[chainId] = [];
+        }
+        tasksByChainId[chainId].push({ task, network, org });
       }
-      tasksByChainId[chainId].push({ task, network, org });
     }
 
 
