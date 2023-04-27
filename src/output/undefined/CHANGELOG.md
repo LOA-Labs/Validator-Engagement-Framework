@@ -1,22 +1,36 @@
-# Regen Mainnet (regen-1)
+# undefined (undefined)
 
-## Regen Network Resources
-* Website https://regen.network
-* Twitter [@null](https://twitter.com/null)
-* Discord null
+## undefined Organization Resources
 
-## regen-1 Resources
-* Repo https://github.com/regen-network/
-* Explorer https://www.mintscan.io/regen/
-* Validator Status https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h
-* Earn rewards by delegating to LOA Labs https://wallet.keplr.app/chains/regen?modal=validator&chain=regen-1&validator_address=regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h&referral=true
+* Website undefined
+* Twitter [@undefined](https://twitter.com/undefined)
+* Discord undefined
 
-Regen network mainnet, leading the way in Regenerative Financial solutions and LOA Labs is a key partner in providing marketing and technical solutions. 
+## undefined Chain Resources
+
+* Repo undefined
+* Explorer undefined
+* Validator Status undefined
+* Delegating to LOA Labs to [Earn Rewards via Keplr](undefined)
+
+undefined 
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
-| :----------- | :---- | :------------ | :-------------------- | :------------ |
+| :----------- | :---- | :------------ | :-------------------------------- | :---- || 2021-04-16 | IN-1 | Create Validator | Top tier validator service and network support.  | [https://www.mintscan.io/reg...](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h) |
+| 2023-02-21 |  | Prop 26 Proposer | Liquid Staking: Enabling ICA on Regen for Quicksilver | [https://www.mintscan.io/reg...](https://www.mintscan.io/regen/proposals/26) |
+| 2023-02-24 |  | Prop 27 Proposer | Increase Minimum Proposal Deposit to Prevent Spam Attacks | [https://www.mintscan.io/reg...](https://www.mintscan.io/regen/proposals/27) |
+| 2023-03-18 | G-6 | Gravity Bridge to go Carbon Neutral, CosmosZERO Follow-on to Proposal 108 | Formulation and execution of carbon offset strategy for Gravity Bridge blockchain operations.  | [https://www.mintscan.io/gra...](https://www.mintscan.io/gravity-bridge/proposals/153) |
+| 2023-02-15 | M-19 | Gravity Bridge Community Call: Cosmos ZERO Add On | LOA hosted Spaces to discuss carbon offset strategy.  | [https://twitter.com/i/space...](https://twitter.com/i/spaces/1MnGnprZgQyxO) |
+| 2023-04-10 | G-6, PG-12 | Gravity Community Announcement: Completion on Prop 108 and follow-on Prop 153 Execution | Gravity Bridge Community Carbon Offsets purchase of 8362.5 NCT for all historical emissions since operations began per governance has been completed by multisig account https://www.mintscan.io/gravity-bridge/account/gravity1dklgd55t7dr5pw5d0qky7vc8g72plel0kez2ff
 
-- Task ID: 1
-- Task ID: 2
-- Task ID: 3
+2,383,313.000000 GRAV were sent to RND, PBC wallet in a 12-month vested state.
+https://www.mintscan.io/gravity-bridge/txs/25EF28FA2C072274AD5F6D1FC2C8555E7ABEDC9795AFD8D0C7F3843FA553A2BD
+
+2,634,186.982500 GRAV unspent have been returned to community pool.
+https://www.mintscan.io/gravity-bridge/txs/58394F0EEC3911C80F0EBD8AA81AFA35296FE37B635718404BFCC0BCF23C5D88
+
+gravity1dklgd55t7dr5pw5d0qky7vc8g72plel0kez2ff account now has a perfectly 0.00 balance. | [https://discord.com/channel...](https://discord.com/channels/881943007115497553/921207222904717333/1095127120893710397) |
+| 2023-04-11 | G-9, G-6, PG-12 | Decentralized Blockchain Governance Thesis (Best Practives) | Aims to outline the key components and best practices in blockchain governance, at mid-to-high level, without getting too detailed about specifics which may vary from one community to the next.
+
+Document is iterative and collaborative; it covers a non-exhaustive list of components that are important to governance; your suggestions and contributions are welcome. | [https://gov.vs.loalabs.io/](https://gov.vs.loalabs.io/) |

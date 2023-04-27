@@ -11,8 +11,10 @@ function extractRelationalData(root, relationBranches) {
   }
   const currentRelation = relationBranches[0];
   const remainingBranches = relationBranches.slice(1);
-  const nextRoot = root.attributes[currentRelation].data;
-  return extractRelationalData(nextRoot, remainingBranches);
+  if (root.attributes[currentRelation]) {
+    const nextRoot = root.attributes[currentRelation].data;
+    return extractRelationalData(nextRoot, remainingBranches);
+  } else return {}
 }
 
 app.get('/generate-changelog', async (req, res) => {
@@ -65,14 +67,12 @@ ${network.desc}
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
-| :----------- | :---- | :------------ | :-------------------- | :------------ |
-
-`
+| :----------- | :---- | :------------ | :-------------------------------- | :---- |`
 
    
     const changelogContent = tasksByChainId[chainId]
       .map(({ task: { attributes :{ date, types, title, desc, link } } }) => {
-        return `| ${date} | ${makeTypes(types)} | ${title} | ${desc} | ${link} |`;
+        return `| ${date} | ${makeTypes(types)} | ${title} | ${desc} | [${truncateText(link,30)}](${link}) |`;
       })
       .join('\n');
 
@@ -111,4 +111,11 @@ function makeTypes(types) {
     console.log(type)
     return `${type.attributes.parent?.data.attributes.abbreviation}-${type.id}`;
   }).join(', ');
+}
+
+function truncateText(text, maxLength) {
+  if (text.length <= maxLength) {
+    return text;
+  }
+  return text.substring(0, maxLength - 3) + '...';
 }
