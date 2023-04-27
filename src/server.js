@@ -2,29 +2,9 @@ const express = require('express');
 const axios = require('axios');
 const fs = require('fs-extra');
 const { exec } = require('child_process');
+const path = require('path');
 
 const app = express();
-
-function extractRelationalData(root, relationBranches) {
-  if (!root || !root.attributes || relationBranches.length === 0) {
-    return root ? root.attributes : undefined;
-  }
-
-  const currentRelation = relationBranches[0];
-  const remainingBranches = relationBranches.slice(1);
-  const nextRootArray = root.attributes[currentRelation]?.data || [];
-
-  if (Array.isArray(nextRootArray)) {
-    const resultArray = nextRootArray.map(item => {
-      return extractRelationalData(item, remainingBranches);
-    });
-
-    return resultArray;
-  } else {
-    return extractRelationalData(nextRootArray, remainingBranches);
-  }
-}
-
 
 app.get('/generate-changelog', async (req, res) => {
   try {
@@ -62,7 +42,7 @@ app.get('/generate-changelog', async (req, res) => {
       await fs.ensureDir(outputDir);
 
       const { network, org } = tasksByChainId[chainId][0];
-      const changelogPath = `${outputDir}/_CHANGELOG ${network.pretty_name} (${chainId}).md`;
+      const changelogPath = `${outputDir}/_CHANGELOG: ${network.pretty_name} (${chainId}).md`;
       await fs.ensureFile(changelogPath);
 
       //will all be the same, get first to use as header for all tasks
@@ -127,6 +107,25 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
+function extractRelationalData(root, relationBranches) {
+  if (!root || !root.attributes || relationBranches.length === 0) {
+    return root ? root.attributes : undefined;
+  }
+
+  const currentRelation = relationBranches[0];
+  const remainingBranches = relationBranches.slice(1);
+  const nextRootArray = root.attributes[currentRelation]?.data || [];
+
+  if (Array.isArray(nextRootArray)) {
+    const resultArray = nextRootArray.map(item => {
+      return extractRelationalData(item, remainingBranches);
+    });
+
+    return resultArray;
+  } else {
+    return extractRelationalData(nextRootArray, remainingBranches);
+  }
+}
 
 function makeTypes(types) {
   return types?.data?.map(type => {
@@ -157,7 +156,6 @@ function replaceUrlsWithMarkdownLinks(text) {
 async function deleteMarkdownFilesExceptReadme(dirPath) {
   try {
     const files = await fs.readdir(dirPath);
-    console.log(files)
     const markdownFiles = files.filter((file) => file.endsWith('.md') && file !== 'README.md');
 
     for (const file of markdownFiles) {
