@@ -28,7 +28,7 @@ app.get('/generate-changelog', async (req, res) => {
     for (const task of tasks) {
       const network = extractRelationalData(task, ["network"]);
       const org = extractRelationalData(task,["network","org"]);
-
+console.log(network)
       const chainId = network.chain_id;
 
       if (!tasksByChainId[chainId]) {
