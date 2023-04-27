@@ -91,12 +91,12 @@ ${network.desc}
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
-| :----------- | :---- | :------------ | :-------------------------------- | :---- |`
+| :----------- | :---- | :------------ | :-------------------------------- | :---- |\n`
 
    
     const changelogContent = tasksByChainId[chainId]
       .map(({ task: { attributes :{ date, types, title, desc, link } } }) => {
-        return `| ${date} | ${makeTypes(types)} | ${title} | ${desc} | [${truncateText(link,30)}](${link}) |`;
+        return `| ${date} | ${makeTypes(types)} | ${title} | ${replaceUrlsWithMarkdownLinks(desc)} | [${truncateText(link,30)}](${link}) |`;
       })
       .join('\n');
 
@@ -145,4 +145,13 @@ function truncateText(text, maxLength) {
   
   return text.substring(0, leftHalf) + '...' + text.substring(text.length - rightHalf);
 }
+function replaceUrlsWithMarkdownLinks(text) {
+  const urlRegex = /((http|https):\/\/[\w?=&.\/\-;#~%\-]+(\.[a-z]{2,4})?[^.\s]+)/gi;
+
+  return text.replace(urlRegex, (url) => {
+    const truncatedUrl = truncateText(url, 30);
+    return `[${truncatedUrl}](${url})`;
+  });
+}
+
 
