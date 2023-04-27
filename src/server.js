@@ -12,7 +12,12 @@ function extractRelationalData(root, relationBranches) {
   const currentRelation = relationBranches[0];
   const remainingBranches = relationBranches.slice(1);
   const nextRoot = root.attributes[currentRelation] ? root.attributes[currentRelation].data : undefined;
-  return extractRelationalData(nextRoot, remainingBranches);
+  
+  if (Array.isArray(nextRoot)) {
+    return nextRoot.map(item => extractRelationalData(item, remainingBranches));
+  } else {
+    return extractRelationalData(nextRoot, remainingBranches);
+  }
 }
 
 
@@ -98,7 +103,7 @@ ${network.desc}
       if(stderr)console.error(`stderr: ${stderr}`);
     });
 
-    res.status(200).send('Changelogs generated and pushed to the repository');
+    res.status(200).send('<style>body:{background:#555;}</style>Changelogs generated and pushed to the repository');
   } catch (error) {
     console.error(error);
     res.status(500).send('An error occurred while generating changelogs');
