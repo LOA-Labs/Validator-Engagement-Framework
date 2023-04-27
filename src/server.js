@@ -56,10 +56,10 @@ const org = extractRelationalData(task, ["networks", "org"])[0];
 }
 
 
-    for (const chainId in tasksByChainId) {
-
       const outputDir = `../Engagement-Logs/`;
       await fs.emptyDir(outputDir);
+    for (const chainId in tasksByChainId) {
+
       await fs.ensureDir(outputDir);
       
       const { network, org } = tasksByChainId[chainId][0];
