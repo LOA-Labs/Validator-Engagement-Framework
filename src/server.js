@@ -117,3 +117,5 @@ function truncateText(text, maxLength) {
   }
   return text.substring(0, maxLength - 3) + '...';
 }
+
+axios.get('http://localhost:3000/generate-changelog');
