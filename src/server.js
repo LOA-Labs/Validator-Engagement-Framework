@@ -9,16 +9,23 @@ function extractRelationalData(root, relationBranches) {
   if (!root || !root.attributes || relationBranches.length === 0) {
     return root ? root.attributes : undefined;
   }
+  
   const currentRelation = relationBranches[0];
   const remainingBranches = relationBranches.slice(1);
-  const nextRoot = root.attributes[currentRelation] ? root.attributes[currentRelation].data : undefined;
+  const nextRootArray = root.attributes[currentRelation]?.data || [];
   
-  if (Array.isArray(nextRoot)) {
-    return nextRoot.map(item => extractRelationalData(item, remainingBranches));
+  if (Array.isArray(nextRootArray)) {
+    const resultArray = nextRootArray.map(item => {
+      return extractRelationalData(item, remainingBranches);
+    });
+    
+    return resultArray;
   } else {
-    return extractRelationalData(nextRoot, remainingBranches);
+    return extractRelationalData(nextRootArray, remainingBranches);
   }
 }
+
+
 
 
 app.get('/generate-changelog', async (req, res) => {
@@ -28,7 +35,7 @@ app.get('/generate-changelog', async (req, res) => {
     } = await axios.get('http://localhost:1337/api/tasks?populate=networks.org,types.parent');
 
     const tasksByChainId = {};
-console.log(tasks)
+
     for (const task of tasks) {
 
   const network = extractRelationalData(task, ["networks"]);
