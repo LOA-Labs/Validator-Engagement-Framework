@@ -57,16 +57,16 @@ const org = extractRelationalData(task, ["networks", "org"])[0];
 
 
     for (const chainId in tasksByChainId) {
-      console.log(chainId)
-      const outputDir = `./output/${chainId}`;
+
+      const outputDir = `../Engagement-Logs/`;
+      await fs.emptyDir(outputDir);
       await fs.ensureDir(outputDir);
       
-      const changelogPath = `${outputDir}/CHANGELOG.md`;
+      const { network, org } = tasksByChainId[chainId][0];
+      const changelogPath = `${outputDir}/${network.pretty_name} (${chainId})/CHANGELOG.md})`;
       await fs.ensureFile(changelogPath);
 
       //will all be the same, get first to use as header for all tasks
-      const { network, org } = tasksByChainId[chainId][0]
-      
       const changelogHeader = `# ${network.pretty_name} (${network.chain_id})
 
 ## ${org.name} Organization Resources
@@ -74,10 +74,15 @@ const org = extractRelationalData(task, ["networks", "org"])[0];
 * Website ${org.website}
 * Twitter [@${org.twitter}](https://twitter.com/${org.twitter})
 * Discord ${org.discord}
+* Governance ${org.governance}
+* Blog ${org.blog}
+* Telegram ${org.telegram}
+* Youtube ${org.youtube}
 
 ## ${network.chain_id} Chain Resources
 
-* Repo ${network.repo}
+* Repo ${org.repo}
+* Docs ${org.docs}
 * Explorer ${network.explorer}
 * Validator Status ${network.status}
 * Delegating to LOA Labs to [Earn Rewards via Keplr](${network.delegate})
@@ -134,7 +139,10 @@ function truncateText(text, maxLength) {
   if (text.length <= maxLength) {
     return text;
   }
-  return text.substring(0, maxLength - 3) + '...';
+
+  const leftHalf = Math.floor((maxLength - 3) / 2);
+  const rightHalf = maxLength - 3 - leftHalf;
+  
+  return text.substring(0, leftHalf) + '...' + text.substring(text.length - rightHalf);
 }
 
-// axios.get('http://localhost:3000/generate-changelog');
