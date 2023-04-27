@@ -26,7 +26,8 @@ LOA Labs will position itself within The Hub as the primary instigator, collabor
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
-| :----------- | :---- | :------------ | :-------------------------------- | :---- || 2023-04-11 | G-9, G-6, PG-12 | Decentralized Blockchain Governance Thesis (Best Practices) | Aims to outline the key components and best practices in blockchain governance, at mid-to-high level, without getting too detailed about specifics which may vary from one community to the next.
+| :----------- | :---- | :------------ | :-------------------------------- | :---- |
+| 2023-04-11 | G-9, G-6, PG-12 | Decentralized Blockchain Governance Thesis (Best Practices) | Aims to outline the key components and best practices in blockchain governance, at mid-to-high level, without getting too detailed about specifics which may vary from one community to the next.
 
 Document is iterative and collaborative; it covers a non-exhaustive list of components that are important to governance; your suggestions and contributions are welcome. | [https://gov.vs.loalabs.io/](https://gov.vs.loalabs.io/) |
 | 2023-03-29 | IN-1 | Cosmos Bare Metal Validator | LOA Labs enters The Hub to bring new value propositions based on the Better World Blockchain Thesis. | [https://www.m...y69m460zzcdchd](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd) |
