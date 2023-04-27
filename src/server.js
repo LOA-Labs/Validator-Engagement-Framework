@@ -103,7 +103,7 @@ ${network.desc}
       if(stderr)console.error(`stderr: ${stderr}`);
     });
 
-    res.status(200).send('<style>body:{background:#555;}</style>Changelogs generated and pushed to the repository');
+    res.status(200).send('<style>body{background:#555;}</style>Changelogs generated and pushed to the repository');
   } catch (error) {
     console.error(error);
     res.status(500).send('An error occurred while generating changelogs');
