@@ -23,7 +23,7 @@ Regen network mainnet, leading the way in Regenerative Financial solutions and L
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
 | :----------- | :---- | :------------ | :-------------------------------- | :---- |
-| 2021-04-16 | IN-1 | Create Validator | Top tier validator service and network support.  | [https://www.m...gl2wfghz2fx95h](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h) |
+| 2021-04-16 | IN-1 | Create Regen Validator | Top tier validator service and network support.  | [https://www.m...gl2wfghz2fx95h](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h) |
 | 2023-02-21 | PG-11 | Prop 26 Proposer | Liquid Staking: Enabling ICA on Regen for Quicksilver | [https://www.m...n/proposals/26](https://www.mintscan.io/regen/proposals/26) |
 | 2023-02-24 | G-6 | Prop 27 Proposer | Increase Minimum Proposal Deposit to Prevent Spam Attacks | [https://www.m...n/proposals/27](https://www.mintscan.io/regen/proposals/27) |
 | 2023-03-18 | G-6 | Gravity Bridge to go Carbon Neutral, CosmosZERO Follow-on to Proposal 108 | Formulation and execution of carbon offset strategy for Gravity Bridge blockchain operations.  | [https://www.m.../proposals/153](https://www.mintscan.io/gravity-bridge/proposals/153) |
