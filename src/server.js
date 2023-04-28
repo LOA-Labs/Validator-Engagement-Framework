@@ -50,7 +50,7 @@ app.get('/generate-changelog', async (req, res) => {
       //will all be the same, get first to use as header for all tasks
       const changelogHeader = `# ${network.pretty_name} (${network.chain_id})
 
-${network.desc} 
+${network.desc || ""} 
 
 ## ${org.name} Organization Resources
 
