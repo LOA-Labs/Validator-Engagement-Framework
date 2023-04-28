@@ -35,8 +35,7 @@ app.get('/generate-changelog', async (req, res) => {
       }
     }
 
-
-    const outputDir = `../`;
+    const outputDir = path.resolve(__dirname, '../');
     await deleteChangelogFiles(outputDir)
 
     for (const chainId in tasksByChainId) {
