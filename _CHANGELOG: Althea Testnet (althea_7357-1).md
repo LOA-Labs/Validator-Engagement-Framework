@@ -1,9 +1,11 @@
 # Althea Testnet (althea_7357-1)
 
+Althea is a new way to access broadband internet that enables growth in the network through a unique system of revenue sharing. 
+
 ## Althea (Hawk Networks, inc) Organization Resources
 
 * Website https://www.althea.net/
-* Twitter [@https://twitter.com/AltheaNetwork](https://twitter.com/https://twitter.com/AltheaNetwork)
+* Twitter https://twitter.com/https://twitter.com/AltheaNetwork
 * Discord https://discord.gg/hHx7HxcycF
 * Governance https://forum.altheamesh.com/
 * Blog https://blog.althea.net/
@@ -17,8 +19,6 @@
 * Explorer https://www.skynetexplorers.com/althea
 * Validator Status https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr
 * Delegating to LOA Labs to [Earn Rewards via Keplr](https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
-
-Althea is a new way to access broadband internet that enables growth in the network through a unique system of revenue sharing. 
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
