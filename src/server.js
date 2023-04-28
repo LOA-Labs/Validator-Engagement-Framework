@@ -50,10 +50,12 @@ app.get('/generate-changelog', async (req, res) => {
       //will all be the same, get first to use as header for all tasks
       const changelogHeader = `# ${network.pretty_name} (${network.chain_id})
 
+${network.desc} 
+
 ## ${org.name} Organization Resources
 
 * Website ${org.website}
-* Twitter [@${org.twitter}](https://twitter.com/${org.twitter})
+* Twitter https://twitter.com/${org.twitter}
 * Discord ${org.discord}
 * Governance ${org.governance}
 * Blog ${org.blog}
@@ -67,8 +69,6 @@ app.get('/generate-changelog', async (req, res) => {
 * Explorer ${network.explorer}
 * Validator Status ${network.status}
 * Delegating to LOA Labs to [Earn Rewards via Keplr](${network.delegate})
-
-${network.desc} 
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
