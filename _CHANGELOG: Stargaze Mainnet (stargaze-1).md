@@ -4,21 +4,21 @@ Carbon neutral Cosmos SDK-based decentralized interchain NFT marketplace and soc
 
 ## Stargaze (Public Awesome) Organization Resources
 
-* Website https://www.stargaze.zone/
-* Twitter https://twitter.com/https://twitter.com/stargazezone
-* Discord https://discord.gg/stargaze
-* Governance https://gov.stargaze.zone/
-* Blog https://medium.com/stargaze-protocol
-* Telegram null
-* Youtube null
+* Website [https://www.stargaze.zone/](https://www.stargaze.zone/)
+* Twitter [https://twitt...m/stargazezone](https://twitter.com/stargazezone)
+* Discord [https://discord.gg/stargaze](https://discord.gg/stargaze)
+* Governance [https://gov.stargaze.zone/](https://gov.stargaze.zone/)
+* Blog [https://mediu...rgaze-protocol](https://medium.com/stargaze-protocol)
+* Telegram n/a
+* Youtube n/a
 
 ## stargaze-1 Chain Resources
 
-* Repo https://github.com/public-awesome
-* Docs https://docs.stargaze.zone/guides/readme
-* Explorer https://www.mintscan.io/stargaze
-* Validator Status https://www.mintscan.io/stargaze/validators/starsvaloper16gzehchwqzl5p2gmx2jfnf22hk2tw3n8v5mxad
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/stargaze?modal=validator&chain=stargaze-1&validator_address=starsvaloper16gzehchwqzl5p2gmx2jfnf22hk2tw3n8v5mxad&referral=true)
+* Repo [https://githu...public-awesome](https://github.com/public-awesome)
+* Docs [https://docs..../guides/readme](https://docs.stargaze.zone/guides/readme)
+* Explorer [https://www.m...an.io/stargaze](https://www.mintscan.io/stargaze)
+* Validator Status [https://www.m...hk2tw3n8v5mxad](https://www.mintscan.io/stargaze/validators/starsvaloper16gzehchwqzl5p2gmx2jfnf22hk2tw3n8v5mxad)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/stargaze?modal=validator&chain=stargaze-1&validator_address=starsvaloper16gzehchwqzl5p2gmx2jfnf22hk2tw3n8v5mxad&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

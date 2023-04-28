@@ -1,8 +1,8 @@
 # Validator Engagement Framework
 
-Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. 
+This public repo outlines how LOA Labs validator engages with each chain and logs delivered goods and services. This repo is itself a delivered good to the community.
 
-This plan covers the types of services LOA Labs aims to provide as a validator and active, valuable member of the community. Meeting all of these metrics is the objective, however service and availability may be subject to variations due to community restraints and technical limitations.
+The engagement outline below covers the types of services LOA Labs aims to provide as a validator and active, valuable member of the community. Meeting all of these metrics is the objective, however service and availability may be subject to variations due to some community restraints and technical limitations.
 
 # 1. **[I]** Infrastructure
 

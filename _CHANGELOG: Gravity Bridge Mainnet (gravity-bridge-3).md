@@ -4,21 +4,21 @@ An open, decentralized bridge that unlocks the power of interoperability & liqui
 
 ## Gravity Bridge Organization Resources
 
-* Website https://www.gravitybridge.net/
-* Twitter https://twitter.com/https://twitter.com/gravity_bridge
-* Discord https://discord.com/invite/d3DshmHpXA
-* Governance https://commonwealth.im/gravity-bridge
-* Blog https://github.com/Gravity-Bridge
-* Telegram null
-* Youtube null
+* Website [https://www.gravitybridge.net/](https://www.gravitybridge.net/)
+* Twitter [https://twitt...gravity_bridge](https://twitter.com/gravity_bridge)
+* Discord [https://disco...ite/d3DshmHpXA](https://discord.com/invite/d3DshmHpXA)
+* Governance [https://commo...gravity-bridge](https://commonwealth.im/gravity-bridge)
+* Blog [https://githu...Gravity-Bridge](https://github.com/Gravity-Bridge)
+* Telegram n/a
+* Youtube n/a
 
 ## gravity-bridge-3 Chain Resources
 
-* Repo https://github.com/Gravity-Bridge
-* Docs https://github.com/Gravity-Bridge/Gravity-Docs
-* Explorer https://www.mintscan.io/gravity-bridge
-* Validator Status https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1ggydhncd8mwx9hgycqf7zqqhqce3f23d7ecppn
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/gravity-bridge?modal=validator&chain=gravity-bridge-3&validator_address=gravityvaloper1ggydhncd8mwx9hgycqf7zqqhqce3f23d7ecppn&referral=true)
+* Repo [https://githu...Gravity-Bridge](https://github.com/Gravity-Bridge)
+* Docs [https://githu...e/Gravity-Docs](https://github.com/Gravity-Bridge/Gravity-Docs)
+* Explorer [https://www.m...gravity-bridge](https://www.mintscan.io/gravity-bridge)
+* Validator Status [https://www.m...qce3f23d7ecppn](https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1ggydhncd8mwx9hgycqf7zqqhqce3f23d7ecppn)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/gravity-bridge?modal=validator&chain=gravity-bridge-3&validator_address=gravityvaloper1ggydhncd8mwx9hgycqf7zqqhqce3f23d7ecppn&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

@@ -4,21 +4,21 @@ Althea is a new way to access broadband internet that enables growth in the netw
 
 ## Althea (Hawk Networks, inc) Organization Resources
 
-* Website https://www.althea.net/
-* Twitter https://twitter.com/https://twitter.com/AltheaNetwork
-* Discord https://discord.gg/hHx7HxcycF
-* Governance https://forum.altheamesh.com/
-* Blog https://blog.althea.net/
-* Telegram null
-* Youtube https://www.youtube.com/channel/UC9B6l5k2NF2Gu_aCRBhe9Gw
+* Website [https://www.althea.net/](https://www.althea.net/)
+* Twitter [https://twitt.../AltheaNetwork](https://twitter.com/AltheaNetwork)
+* Discord [https://discord.gg/hHx7HxcycF](https://discord.gg/hHx7HxcycF)
+* Governance [https://forum.altheamesh.com/](https://forum.altheamesh.com/)
+* Blog [https://blog.althea.net/](https://blog.althea.net/)
+* Telegram n/a
+* Youtube [https://www.y...F2Gu_aCRBhe9Gw](https://www.youtube.com/channel/UC9B6l5k2NF2Gu_aCRBhe9Gw)
 
 ## althea_7357-1 Chain Resources
 
-* Repo https://github.com/althea-net
-* Docs https://github.com/althea-net/community
-* Explorer https://www.skynetexplorers.com/althea
-* Validator Status https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
+* Repo [https://github.com/althea-net](https://github.com/althea-net)
+* Docs [https://githu...-net/community](https://github.com/althea-net/community)
+* Explorer [https://www.s...ers.com/althea](https://www.skynetexplorers.com/althea)
+* Validator Status [https://www.s...7f8a5k7h6mdadr](https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

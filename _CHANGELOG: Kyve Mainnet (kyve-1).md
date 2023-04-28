@@ -4,21 +4,21 @@ Cosmos SDK-based network providing cross-chain decentralized data lake solutions
 
 ## Kyve Network Organization Resources
 
-* Website https://www.kyve.network/
-* Twitter https://twitter.com/https://twitter.com/KYVENetwork
-* Discord https://discord.com/invite/kyve
-* Governance https://commonwealth.im/kyve/discussions
-* Blog https://blog.kyve.network/
-* Telegram null
-* Youtube null
+* Website [https://www.kyve.network/](https://www.kyve.network/)
+* Twitter [https://twitt...om/KYVENetwork](https://twitter.com/KYVENetwork)
+* Discord [https://disco...om/invite/kyve](https://discord.com/invite/kyve)
+* Governance [https://commo...ve/discussions](https://commonwealth.im/kyve/discussions)
+* Blog [https://blog.kyve.network/](https://blog.kyve.network/)
+* Telegram n/a
+* Youtube n/a
 
 ## kyve-1 Chain Resources
 
-* Repo https://github.com/KYVENetwork
-* Docs https://docs.kyve.network/
-* Explorer https://www.mintscan.io/kyve
-* Validator Status https://www.mintscan.io/kyve/validators/kyvevaloper1fkm6cskfz6s0dyeet0pmmt2tyf2mrjdf9hhvgs
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/kyve?modal=validator&chain=kyve-1&validator_address=kyvevaloper1fkm6cskfz6s0dyeet0pmmt2tyf2mrjdf9hhvgs&referral=true)
+* Repo [https://github.com/KYVENetwork](https://github.com/KYVENetwork)
+* Docs [https://docs.kyve.network/](https://docs.kyve.network/)
+* Explorer [https://www.mintscan.io/kyve](https://www.mintscan.io/kyve)
+* Validator Status [https://www.m...yf2mrjdf9hhvgs](https://www.mintscan.io/kyve/validators/kyvevaloper1fkm6cskfz6s0dyeet0pmmt2tyf2mrjdf9hhvgs)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/kyve?modal=validator&chain=kyve-1&validator_address=kyvevaloper1fkm6cskfz6s0dyeet0pmmt2tyf2mrjdf9hhvgs&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

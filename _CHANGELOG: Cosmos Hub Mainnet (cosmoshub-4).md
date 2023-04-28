@@ -8,21 +8,21 @@ LOA Labs will position itself within The Hub as the primary instigator, collabor
 
 ## Cosmos Network (Interchain) Organization Resources
 
-* Website https://cosmos.network/
-* Twitter https://twitter.com/https://twitter.com/cosmos
-* Discord https://discord.com/invite/cosmosnetwork
-* Governance https://forum.cosmos.network/
-* Blog https://blog.cosmos.network/
-* Telegram null
-* Youtube null
+* Website [https://cosmos.network/](https://cosmos.network/)
+* Twitter [https://twitter.com/cosmos](https://twitter.com/cosmos)
+* Discord [https://disco.../cosmosnetwork](https://discord.com/invite/cosmosnetwork)
+* Governance [https://forum.cosmos.network/](https://forum.cosmos.network/)
+* Blog [https://blog.cosmos.network/](https://blog.cosmos.network/)
+* Telegram n/a
+* Youtube n/a
 
 ## cosmoshub-4 Chain Resources
 
-* Repo https://github.com/cosmos
-* Docs https://docs.cosmos.network/
-* Explorer https://www.mintscan.io/cosmos/
-* Validator Status https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/cosmos-hub?modal=validator&chain=cosmoshub-4&validator_address=cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd&referral=true)
+* Repo [https://github.com/cosmos](https://github.com/cosmos)
+* Docs [https://docs.cosmos.network/](https://docs.cosmos.network/)
+* Explorer [https://www.m...can.io/cosmos/](https://www.mintscan.io/cosmos/)
+* Validator Status [https://www.m...y69m460zzcdchd](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/cosmos-hub?modal=validator&chain=cosmoshub-4&validator_address=cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

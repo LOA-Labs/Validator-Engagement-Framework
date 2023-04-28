@@ -4,21 +4,21 @@ Liquid Staking solutions provider to Cosmos Zones.
 
 ## Quicksilver Zone (Ingenuity) Organization Resources
 
-* Website https://quicksilver.zone/
-* Twitter https://twitter.com/https://twitter.com/quicksilverzone
-* Discord https://discord.com/invite/xrSmYMDVrQ
-* Governance https://commonwealth.im/quicksilver-zone/discussions
-* Blog https://medium.com/quicksilverzone
-* Telegram null
-* Youtube https://www.youtube.com/channel/UCFHGQ7SAtIyAlNHewNNVU1A
+* Website [https://quicksilver.zone/](https://quicksilver.zone/)
+* Twitter [https://twitt...uicksilverzone](https://twitter.com/quicksilverzone)
+* Discord [https://disco...ite/xrSmYMDVrQ](https://discord.com/invite/xrSmYMDVrQ)
+* Governance [https://commo...ne/discussions](https://commonwealth.im/quicksilver-zone/discussions)
+* Blog [https://mediu...uicksilverzone](https://medium.com/quicksilverzone)
+* Telegram n/a
+* Youtube [https://www.y...IyAlNHewNNVU1A](https://www.youtube.com/channel/UCFHGQ7SAtIyAlNHewNNVU1A)
 
 ## quicksilver-2 Chain Resources
 
-* Repo https://github.com/ingenuity-build/quicksilver
-* Docs https://docs.quicksilver.zone/
-* Explorer https://www.mintscan.io/quicksilver
-* Validator Status https://www.mintscan.io/quicksilver/validators/quickvaloper1clmvzgshr45ntmf2uapl2uyaen2qrh2mc04usz
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/quicksilver?modal=validator&chain=quicksilver-2&validator_address=quickvaloper1clmvzgshr45ntmf2uapl2uyaen2qrh2mc04usz&referral=true)
+* Repo [https://githu...ld/quicksilver](https://github.com/ingenuity-build/quicksilver)
+* Docs [https://docs.quicksilver.zone/](https://docs.quicksilver.zone/)
+* Explorer [https://www.m...io/quicksilver](https://www.mintscan.io/quicksilver)
+* Validator Status [https://www.m...en2qrh2mc04usz](https://www.mintscan.io/quicksilver/validators/quickvaloper1clmvzgshr45ntmf2uapl2uyaen2qrh2mc04usz)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/quicksilver?modal=validator&chain=quicksilver-2&validator_address=quickvaloper1clmvzgshr45ntmf2uapl2uyaen2qrh2mc04usz&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

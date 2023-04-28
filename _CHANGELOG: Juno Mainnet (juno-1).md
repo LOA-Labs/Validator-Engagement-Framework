@@ -4,21 +4,21 @@ Open Source Application Network for the Inter-chain Era. Secure. Scalable. Permi
 
 ## Juno Network Organization Resources
 
-* Website https://www.junonetwork.io/
-* Twitter https://twitter.com/https://twitter.com/JunoNetwork
-* Discord https://discord.gg/juno
-* Governance https://commonwealth.im/juno
-* Blog https://medium.com/@JunoNetwork
-* Telegram null
-* Youtube null
+* Website [https://www.junonetwork.io/](https://www.junonetwork.io/)
+* Twitter [https://twitt...om/JunoNetwork](https://twitter.com/JunoNetwork)
+* Discord [https://discord.gg/juno](https://discord.gg/juno)
+* Governance [https://commonwealth.im/juno](https://commonwealth.im/juno)
+* Blog [https://mediu...m/@JunoNetwork](https://medium.com/@JunoNetwork)
+* Telegram n/a
+* Youtube n/a
 
 ## juno-1 Chain Resources
 
-* Repo https://github.com/CosmosContracts
-* Docs https://docs.junonetwork.io/juno/readme
-* Explorer https://www.mintscan.io/juno/
-* Validator Status https://www.mintscan.io/juno/validators/junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/juno?modal=validator&chain=juno-1&validator_address=junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn&referral=true)
+* Repo [https://githu...osmosContracts](https://github.com/CosmosContracts)
+* Docs [https://docs....io/juno/readme](https://docs.junonetwork.io/juno/readme)
+* Explorer [https://www.mintscan.io/juno/](https://www.mintscan.io/juno/)
+* Validator Status [https://www.m...4qusw2cxxeqmnn](https://www.mintscan.io/juno/validators/junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/juno?modal=validator&chain=juno-1&validator_address=junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

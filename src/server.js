@@ -53,21 +53,21 @@ ${network.desc || ""}
 
 ## ${org.name} Organization Resources
 
-* Website ${org.website}
-* Twitter https://twitter.com/${org.twitter}
-* Discord ${org.discord}
-* Governance ${org.governance}
-* Blog ${org.blog}
-* Telegram ${org.telegram}
-* Youtube ${org.youtube}
+* Website ${replaceUrlsWithMarkdownLinks(org.website)}
+* Twitter ${replaceUrlsWithMarkdownLinks(org.twitter)}
+* Discord ${replaceUrlsWithMarkdownLinks(org.discord)}
+* Governance ${replaceUrlsWithMarkdownLinks(org.governance)}
+* Blog ${replaceUrlsWithMarkdownLinks(org.blog)}
+* Telegram ${replaceUrlsWithMarkdownLinks(org.telegram)}
+* Youtube ${replaceUrlsWithMarkdownLinks(org.youtube)}
 
 ## ${network.chain_id} Chain Resources
 
-* Repo ${org.repo}
-* Docs ${org.docs}
-* Explorer ${network.explorer}
-* Validator Status ${network.status}
-* Delegating to LOA Labs to [Earn Rewards via Keplr](${network.delegate})
+* Repo ${replaceUrlsWithMarkdownLinks(org.repo)}
+* Docs ${replaceUrlsWithMarkdownLinks(org.docs)}
+* Explorer ${replaceUrlsWithMarkdownLinks(network.explorer)}
+* Validator Status ${replaceUrlsWithMarkdownLinks(network.status)}
+* Delegate to LOA Labs: [Earn Rewards via Keplr](${network.delegate})
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
@@ -147,7 +147,7 @@ function truncateText(text, maxLength) {
 
 function replaceUrlsWithMarkdownLinks(text) {
   const urlRegex = /((http|https):\/\/[\w?=&.\/\-;#~%\-]+(\.[a-z]{2,4})?[^.\s]+)/gi;
-
+  if (text == null || text == undefined) return "n/a";
   return text.replace(urlRegex, (url) => {
     const truncatedUrl = truncateText(url, 30);
     return `[${truncatedUrl}](${url})`;

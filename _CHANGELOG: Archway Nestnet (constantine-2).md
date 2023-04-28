@@ -4,21 +4,21 @@ Archway is a persmissionless smart contract blockchain designed to incentivize t
 
 ## Archway (Phi Labs) Organization Resources
 
-* Website https://archway.io/
-* Twitter https://twitter.com/https://twitter.com/archwayhq
-* Discord https://discord.com/invite/archwayhq
-* Governance null
-* Blog https://blog.archway.io/
-* Telegram null
-* Youtube null
+* Website [https://archway.io/](https://archway.io/)
+* Twitter [https://twitter.com/archwayhq](https://twitter.com/archwayhq)
+* Discord [https://disco...vite/archwayhq](https://discord.com/invite/archwayhq)
+* Governance n/a
+* Blog [https://blog.archway.io/](https://blog.archway.io/)
+* Telegram n/a
+* Youtube n/a
 
 ## constantine-2 Chain Resources
 
-* Repo https://github.com/archway-network
-* Docs https://docs.archway.io/
-* Explorer https://testnet.mintscan.io/archway-testnet
-* Validator Status https://testnet.mintscan.io/archway-testnet/validators/archwayvaloper174q2pkqphx427fsers84ngup44cdw3fq0wjv3s
-* Delegating to LOA Labs to [Earn Rewards via Keplr](null)
+* Repo [https://githu...rchway-network](https://github.com/archway-network)
+* Docs [https://docs.archway.io/](https://docs.archway.io/)
+* Explorer [https://testn...rchway-testnet](https://testnet.mintscan.io/archway-testnet)
+* Validator Status [https://testn...44cdw3fq0wjv3s](https://testnet.mintscan.io/archway-testnet/validators/archwayvaloper174q2pkqphx427fsers84ngup44cdw3fq0wjv3s)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](null)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

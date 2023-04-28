@@ -4,21 +4,21 @@
 
 ## Kyve Network Organization Resources
 
-* Website https://www.kyve.network/
-* Twitter https://twitter.com/https://twitter.com/KYVENetwork
-* Discord https://discord.com/invite/kyve
-* Governance https://commonwealth.im/kyve/discussions
-* Blog https://blog.kyve.network/
-* Telegram null
-* Youtube null
+* Website [https://www.kyve.network/](https://www.kyve.network/)
+* Twitter [https://twitt...om/KYVENetwork](https://twitter.com/KYVENetwork)
+* Discord [https://disco...om/invite/kyve](https://discord.com/invite/kyve)
+* Governance [https://commo...ve/discussions](https://commonwealth.im/kyve/discussions)
+* Blog [https://blog.kyve.network/](https://blog.kyve.network/)
+* Telegram n/a
+* Youtube n/a
 
 ## kaon-1 Chain Resources
 
-* Repo https://github.com/KYVENetwork
-* Docs https://docs.kyve.network/
-* Explorer https://explorer.kaon.kyve.network/kaon
-* Validator Status https://explorer.kaon.kyve.network/kaon/staking/kyvevaloper1rxmrssz26vxgem43vpqepg4nmp8q2adqnlqllh
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://explorer.kaon.kyve.network/kaon/staking/kyvevaloper1rxmrssz26vxgem43vpqepg4nmp8q2adqnlqllh)
+* Repo [https://github.com/KYVENetwork](https://github.com/KYVENetwork)
+* Docs [https://docs.kyve.network/](https://docs.kyve.network/)
+* Explorer [https://explo...e.network/kaon](https://explorer.kaon.kyve.network/kaon)
+* Validator Status [https://explo...mp8q2adqnlqllh](https://explorer.kaon.kyve.network/kaon/staking/kyvevaloper1rxmrssz26vxgem43vpqepg4nmp8q2adqnlqllh)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://explorer.kaon.kyve.network/kaon/staking/kyvevaloper1rxmrssz26vxgem43vpqepg4nmp8q2adqnlqllh)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |

@@ -4,21 +4,21 @@ Regen network mainnet, leading the way in Regenerative Financial solutions and L
 
 ## Regen Network Organization Resources
 
-* Website https://regen.network
-* Twitter https://twitter.com/https://twitter.com/regen_network
-* Discord https://discord.gg/regen-network
-* Governance https://forum.regen.network/
-* Blog https://medium.com/regen-network
-* Telegram null
-* Youtube null
+* Website [https://regen.network](https://regen.network)
+* Twitter [https://twitt.../regen_network](https://twitter.com/regen_network)
+* Discord [https://disco.../regen-network](https://discord.gg/regen-network)
+* Governance [https://forum.regen.network/](https://forum.regen.network/)
+* Blog [https://mediu.../regen-network](https://medium.com/regen-network)
+* Telegram n/a
+* Youtube n/a
 
 ## regen-1 Chain Resources
 
-* Repo https://github.com/regen-network
-* Docs https://docs.regen.network/
-* Explorer https://www.mintscan.io/regen/
-* Validator Status https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h
-* Delegating to LOA Labs to [Earn Rewards via Keplr](https://wallet.keplr.app/chains/regen?modal=validator&chain=regen-1&validator_address=regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h&referral=true)
+* Repo [https://githu.../regen-network](https://github.com/regen-network)
+* Docs [https://docs.regen.network/](https://docs.regen.network/)
+* Explorer [https://www.mintscan.io/regen/](https://www.mintscan.io/regen/)
+* Validator Status [https://www.m...gl2wfghz2fx95h](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h)
+* Delegate to LOA Labs: [Earn Rewards via Keplr](https://wallet.keplr.app/chains/regen?modal=validator&chain=regen-1&validator_address=regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h&referral=true)
 
 ## Activities / Contributions
 | Date | Type | Title | Desc | Link |
