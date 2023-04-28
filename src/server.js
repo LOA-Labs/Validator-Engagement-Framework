@@ -83,7 +83,7 @@ ${network.desc || ""}
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
 
-    exec('git add . && git commit -m "Update CHANGELOG.md"', (error, stdout, stderr) => {
+    exec('git add . && git commit -m "Export Changelogs" && git push', (error, stdout, stderr) => {
       if (error) {
         if (error.message.includes('index.lock')) {
           console.error('Another Git process is running, or the lock file was not properly removed. Please try again later.');
