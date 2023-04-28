@@ -1,6 +1,6 @@
 # Ixo Mainnet (ixo-5)
 
-null 
+ 
 
 ## Ixo Organization Resources
 

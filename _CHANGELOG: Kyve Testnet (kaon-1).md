@@ -1,6 +1,6 @@
 # Kyve Testnet (kaon-1)
 
-null 
+ 
 
 ## Kyve Network Organization Resources
 
