@@ -83,7 +83,7 @@ ${network.desc || ""}
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
 
-    exec('git pull && git add . && git commit -m "Build Changelogs" && git push', (error, stdout, stderr) => {
+    exec('git pull && git add . && git commit -m "Build Logs" && git push', (error, stdout, stderr) => {
       if (error) {
         if (error.message.includes('index.lock')) {
           console.error('Another Git process is running, or the lock file was not properly removed. Please try again later.');
@@ -96,7 +96,7 @@ ${network.desc || ""}
       if (stderr) console.error(`stderr: ${stderr}`);
     });
 
-    res.status(200).send('<style>body{background:#555;}</style>Changelogs generated and pushed to the repository');
+    res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\nstdout: ${stdout}`);
   } catch (error) {
     console.error(error);
     res.status(500).send('<style>body{background:#555;}</style>An error occurred while generating changelogs');
