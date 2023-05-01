@@ -82,8 +82,6 @@ ${network.desc || ""}
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
 
-    let execOut = ''
-
     exec('git pull && git add . && git commit -m "Build Logs" && git push', (error, stdout, stderr) => {
       if (error) {
         if (error.message.includes('index.lock')) {
@@ -94,15 +92,14 @@ ${network.desc || ""}
         return;
       }
       console.log(`stdout: ${stdout}`);
-      execOut = stdout
       if (stderr) console.error(`stderr: ${stderr}`);
     });
 
-    res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\nstdout: ${execOut}`);
+    res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\n`);
 
   } catch (error) {
     console.error(error);
-    res.status(500).send('<style>body{background:#555;}</style>An error occurred while generating changelogs');
+    res.status(500).send('<style>body{background:#555;}</style>Error.');
   }
 });
 
