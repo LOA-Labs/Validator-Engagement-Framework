@@ -1,10 +1,10 @@
 # Validator Engagement Framework
 
-This public repo outlines how LOA Labs validator engages with each chain and logs delivered goods and services. This repo is itself a delivered good to the community.
+This public repo outlines how LOA Labs validator engages with each chain and logs goods and services delivered. This repo is itself a delivered good open to use by the community for tracking deliverables.
 
-The engagement outline below covers the types of services LOA Labs aims to provide as a validator and active, valuable member of the community. Meeting all of these metrics is the objective, however service and availability may be subject to variations due to some community restraints and technical limitations.
+The engagement outline below covers the types of services LOA Labs provides as a validator and active member of the community. Meeting all of these metrics is the objective, however service and availability may be subject to variations due to some community restraints and technical limitations.
 
-# 1. **[I]** Infrastructure
+# 1. Infrastructure **[IN]**
 
 ## A. LOA Labs Validator Node:
 
@@ -43,7 +43,7 @@ The engagement outline below covers the types of services LOA Labs aims to provi
   - Watch Whale movements (staking and txs)
 - [Tenderduty](https://github.com/blockpane/tenderduty)
 
-# 2. **[G]** Governance
+# 2. Governance **[G]**
 
 ## A. Actively Posting & Proposing Chain Governance
 
@@ -55,7 +55,7 @@ The engagement outline below covers the types of services LOA Labs aims to provi
 
 ## D. Help to guide and define culture around [Decentralized Blockchain Governance](https://gov.vs.loalabs.io) best practices
 
-# 3. **[P]** Public Goods
+# 3. Public Goods **[PG]** 
 
 ## A. Building Interchain ReFi Relationships
 

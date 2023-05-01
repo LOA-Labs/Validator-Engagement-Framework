@@ -70,13 +70,12 @@ ${network.desc || ""}
 * Delegate to LOA Labs: [Earn Rewards via Keplr](${network.delegate})
 
 ## Activities / Contributions
-| Date | Type | Title | Desc | Link |
-| :----------- | :---- | :------------ | :-------------------------------- | :---- |\n`
-
+| Date | Title | Desc | Link | Type |
+| :----------- | :------------ | :-------------------------------- | :---- | :---- |\n`
 
       const changelogContent = tasksByChainId[chainId]
         .map(({ task: { attributes: { date, types, title, desc, link } } }) => {
-          return `| ${date} | ${makeTypes(types)} | ${title} | ${replaceNewlines(replaceUrlsWithMarkdownLinks(desc))} | [${truncateText(link, 30)}](${link}) |`;
+          return `| ${date} | ${title} | ${replaceNewlines(replaceUrlsWithMarkdownLinks(desc))} | [${truncateText(link, 30)}](${link}) | ${makeTypes(types)} |`;
         })
         .join('\n');
 
@@ -97,6 +96,7 @@ ${network.desc || ""}
     });
 
     res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\nstdout: ${stdout}`);
+
   } catch (error) {
     console.error(error);
     res.status(500).send('<style>body{background:#555;}</style>An error occurred while generating changelogs');
