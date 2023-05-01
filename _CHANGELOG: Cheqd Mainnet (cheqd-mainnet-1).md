@@ -21,7 +21,7 @@
 * Delegate to LOA Labs: [Earn Rewards via Keplr](null)
 
 ## Activities / Contributions
-| Date | Type | Title | Desc | Link |
-| :----------- | :---- | :------------ | :-------------------------------- | :---- |
-| 2022-12-07 | PG-12, IN-5, PG-14 | LOA Node Toolkit (LNT) Launched | Highly configurable and lightweight Nodejs toolkit for monitoring, governing, and financing validator nodes on Cosmos. | [https://githu...a-node-toolkit](https://github.com/LOA-Labs/loa-node-toolkit) |
-| 2023-04-28 | PG-12 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) |
+| Date | Title | Desc | Link | Type |
+| :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2022-12-07 | LOA Node Toolkit (LNT) Launched | Highly configurable and lightweight Nodejs toolkit for monitoring, governing, and financing validator nodes on Cosmos. | [https://githu...a-node-toolkit](https://github.com/LOA-Labs/loa-node-toolkit) | PG-12, IN-5, PG-14 |
+| 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PG-12 |
