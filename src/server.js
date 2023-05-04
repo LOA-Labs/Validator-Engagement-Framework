@@ -45,7 +45,7 @@ app.get('/generate-changelog', async (req, res) => {
 
       const { network, org } = tasksByChainId[chainId][0];
 
-      const changelogPath = `${outputDir}/_CHANGELOG-${network.pretty_name.replace(/[^a-zA-Z0-9-]/g, '_')}-${chainId}.md`;
+      const changelogPath = `${outputDir}/_CHANGELOG_${network.pretty_name.replace(/[^a-zA-Z0-9-]/g, '_')}_(${chainId}).md`;
 
       await fs.ensureFile(changelogPath);
 
