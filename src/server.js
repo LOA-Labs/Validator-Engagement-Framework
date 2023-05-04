@@ -44,7 +44,9 @@ app.get('/generate-changelog', async (req, res) => {
       await fs.ensureDir(outputDir);
 
       const { network, org } = tasksByChainId[chainId][0];
-      const changelogPath = `${outputDir}/_CHANGELOG: ${network.pretty_name} (${chainId}).md`;
+
+      const changelogPath = `${outputDir}/_CHANGELOG-${network.pretty_name.replace(/[^a-zA-Z0-9-]/g, '_')}-${chainId}.md`;
+
       await fs.ensureFile(changelogPath);
 
       //will all be the same, get first to use as header for all tasks
