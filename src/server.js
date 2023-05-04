@@ -85,16 +85,15 @@ ${network.desc || ""}
 
     exec('git pull && git add . && git commit -m "Build Logs" && git push', (error, stdout, stderr) => {
       if (error) {
-        if (error.message.includes('index.lock')) {
-          console.error('Another Git process is running, or the lock file was not properly removed. Please try again later.');
-        } else {
-          console.error(`exec error: ${error}`);
-        }
+        console.error(`exec error: ${error}`);
+        console.error(`stdout: ${stdout}`);
+        console.error(`stderr: ${stderr}`);
         return;
       }
       console.log(`stdout: ${stdout}`);
       if (stderr) console.error(`stderr: ${stderr}`);
     });
+
 
     res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\n`);
 
