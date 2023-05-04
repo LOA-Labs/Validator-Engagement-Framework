@@ -7,7 +7,7 @@ const path = require('path');
 const app = express();
 
 app.get('/generate-changelog', async (req, res) => {
-console.log(process.cwd())
+
   try {
     const {
       data: { data: tasks },
