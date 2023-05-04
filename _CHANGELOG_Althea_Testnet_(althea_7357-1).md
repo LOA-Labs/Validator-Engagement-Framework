@@ -1,6 +1,6 @@
 # Althea Testnet (althea_7357-1)
 
-Althea is a new way to access broadband internet that enables growth in the network through a unique system of revenue sharing. 
+Althea is network company providing a new way to access broadband internet that enables growth in the network through a unique system of revenue sharing. 
 
 ## Althea (Hawk Networks, inc) Organization Resources
 

@@ -85,7 +85,7 @@ ${network.desc || ""}
       await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
 
-    exec('git pull && git add . && git commit -m "Build Logs" && git push', (error, stdout, stderr) => {
+    exec('git pull && git add -A && git commit -m "Build Logs" && git push', (error, stdout, stderr) => {
       if (error) {
         console.error(`exec error: ${error}`);
         console.error(`stdout: ${stdout}`);
