@@ -11,7 +11,7 @@ app.get('/generate-changelog', async (req, res) => {
   try {
     const {
       data: { data: tasks },
-    } = await axios.get('http://localhost:1337/api/tasks?populate=networks.org,types.parent&sort=date:ASC');
+    } = await axios.get('http://167.99.56.130:1337/api/tasks?populate=networks.org,types.parent&sort=date:ASC&pagination[page]=1&pagination[pageSize]=500');
 
     const tasksByChainId = {};
 
