@@ -106,25 +106,13 @@ This repo is itself a delivered good open to use by the community for tracking d
 ### A. **Building Interchain ReFi Relationships**
 Our conviction is that blockchain's real promise is its capacity to foster beneficial impacts for individuals and the environment. This is the principle that underpins our "Better World Blockchain" ethos around which we've constructed our operations. We are devoted to collaborating with entities and institutions that resonate with our outlook and are wholeheartedly committed to the development of blockchains for a better world.
 
-* Circular Economy
-
-* Donations & Philantropy
-
-* Biodiversity
-
-* Supply Chain Traceability
-
-* Renewable Energy
-
-* Corporate ESG Accountability
-
-* Financial Inclusion
-
-* Democracy & Governance
-
-* Carbon Markets
-
-* Decentralized Science
+| <span>  | <span>  |
+| --- | --- |
+| * Circular Economy | * Corporate ESG Accountability |
+| * Donations & Philantropy | * Financial Inclusion |
+| * Biodiversity | * Democracy & Governance |
+| * Supply Chain Traceability | * Carbon Markets |
+| * Renewable Energy | * Decentralized Science |
 
 ### B. **Creating and Facilitating Public Goods / ReFi / Impact Projects**
 * We are always on the look out for opportunities to help amplify and coordinate projects within the Public Goods space 
