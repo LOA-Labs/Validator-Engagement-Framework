@@ -70,8 +70,15 @@ This repo is itself a delivered good open to use by the community for tracking d
 ### C. **Follow and Comment on all Pre-Chain Proposal Discussions**
 
 
-### D. **Help to guide and define culture around**
-[Decentralized Blockchain Governance Thesis](https://gov.vs.loalabs.io) best practices
+### D. **Governance & Community Guidelines**
+* Facilitating best practices for developing a culture of good governance:
+  * Respectful and constructive discourse that is backed with facts and empirical evidence
+  * Acknowledging and valuing the opinions and views of others
+  * Open-mindedness and willingness to consider different perspectives
+  * Professionalism and ethical behavior when interacting with others
+  * No use of abusive language or personal attacks
+  * Keep in mind the guidelines and ethical value of decentralization and transparency
+  * Source: [Decentralized Blockchain Governance Guidelines](https://gov.vs.loalabs.io/02-culture)
 
 ### E. **Support and help galvanize ReFi initiates in community**
 
@@ -119,8 +126,13 @@ Our conviction is that blockchain's real promise is its capacity to foster benef
 
 * Decentralized Science
 
-### B. **Constantly seeking out and forming PGs, ReFi, Impact project opportunities**
-
+### B. **Creating and Facilitating Public Goods / ReFi / Impact Projects**
+* We are always on the look out for opportunities to help amplify and coordinate projects within the Public Goods space 
+* Some recent LOA projects:
+  * https://bicowg.org/
+  * https://bxc.network/
+  * https://www.refibysouth.com/
+  * https://www.refiindia.com/refi-india-summit
 
 ### C. **[LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit) Open Sourced**
 
