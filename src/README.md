@@ -8,7 +8,7 @@ The engagement outline below covers the multiple types of services that LOA Labs
 
 This public repo outlines how LOA Labs validator engages with each chain and logs goods and services delivered. Meeting all of these metrics is the objective, however service and availability may be subject to variation due to technical limitations of some blockchains and/or community governance. 
 
-This repo is itself a delivered good open to use by the community for tracking deliverables. It logs contributions, public goods and services delivered. This repo is itself a delivered good open for use by the community for tracking and publicizing their own deliverables. Fork it!
+This repo is itself a delivered good open to use by the community for tracking deliverables. It logs contributions, public goods and services delivered. This repo is itself a delivered good open for use by the community for tracking and publicizing their own deliverables. Fork it.
 
 
 ## 1. Infrastructure [INF]
