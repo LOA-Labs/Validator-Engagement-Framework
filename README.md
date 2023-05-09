@@ -24,7 +24,7 @@ This repo is itself a delivered good open to use by the community for tracking d
 
 ### B. **Relayer Node Ops**
 * Relaying encourages IBC transactions and benefits the interchain
-  * LOA looks to operate [Hermes relayer](https://github.com/informalsystems/hermes) clients between all chains we validate:
+* LOA currently operates [Hermes relayer](https://github.com/informalsystems/hermes) clients between all chains we validate for as needed:
     * [Cosmos Hub](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
     - [Regen](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h)
     - [Juno](https://www.mintscan.io/juno/validators/junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn)
@@ -79,10 +79,8 @@ This repo is itself a delivered good open to use by the community for tracking d
 
 ## 3. Media [MDI]
 
-### A. **Tweets / Retweets / Spaces / Community Calls**
-Weekly media releases and posts. 
-- Chain News / Announcements / Events
-- Commentaries / Reviews / Previews
+### A. **Active Publicity & Marketing**
+Posts and participation with Tweets / Retweets / Spaces / PodCasts / Community Calls to help promote IBC, Cosmos, and Better World Blockchain Thesis. We strive to be active in weekly media releases and posts covering but not limited to: Blockchain News / ESG Topics / Announcements / Events / Commentaries / Tech Reviews / Tech Previews
 
 ### B. **Monthly Medium post on hot topics**
 
@@ -95,7 +93,27 @@ Weekly media releases and posts.
 ## 4. Public Goods [PGS]
 
 ### A. **Building Interchain ReFi Relationships**
+Our conviction is that blockchain's real promise is its capacity to foster beneficial impacts for individuals and the environment. This is the principle that underpins our "Better World Blockchain" ethos around which we've constructed our operations. We are devoted to collaborating with entities and institutions that resonate with our outlook and are wholeheartedly committed to the development of blockchains for a better world.
 
+* Circular Economy
+
+* Donations & Philantropy
+
+* Biodiversity
+
+* Supply Chain Traceability
+
+* Renewable Energy
+
+* Corporate ESG Accountability
+
+* Financial Inclusion
+
+* Democracy & Governance
+
+* Carbon Markets
+
+* Decentralized Science
 
 ### B. **Constantly seeking out and forming PGs, ReFi, Impact project opportunities**
 
