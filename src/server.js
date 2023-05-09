@@ -83,9 +83,8 @@ ${network.desc || ""}
         })
         .join('\n');
 
-      // await fs.writeFile(changelogPath, changelogHeader + changelogContent);
+      await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
-
 
 
 
