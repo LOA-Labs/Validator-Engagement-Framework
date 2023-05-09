@@ -63,8 +63,9 @@ This repo is itself a delivered good open to use by the community for tracking d
     * Allows ecosystem to iterate and evolve efficiently and effectively as markets and technologies change
     * Source: [https://gov.vs.loalabs.io/](https://gov.vs.loalabs.io/)
 
-### B. **95%+ Voting Record (since bonded height)**
-
+### B. **Excellent Voting Record (95%+ since bonded height)**
+* Validators play an oversized role in the governance process, similar to senators or congress; and are primarily responsible for the security of the network and for voting on proposals.
+* All Validators should weigh-in and participate, engaging in a culture of good communication and governance.
 
 ### C. **Follow and Comment on all Pre-Chain Proposal Discussions**
 
@@ -130,8 +131,11 @@ Our conviction is that blockchain's real promise is its capacity to foster benef
 ### E. **CosmWasm ReFi Development Support & Contributions**
 
 
-### F. **% of Validator earnings directly support ReFi**
+### F. **Validator Earnings Support ReFi / Public Goods**
 
+* In addition to our work with partners, LOA Labs is committed to creating a better world through innovative projects of our own. 
+* We are proud to incubate and lead a number of special projects that promote sustainability, climate action, regenerative finance, and financial inclusion. 
+* [See Our Special Projects](https://loalabs.io/)
 
 
 
