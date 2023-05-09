@@ -79,8 +79,11 @@ This repo is itself a delivered good open to use by the community for tracking d
 
 ## 3. Media [MDI]
 
-### A. **Active Publicity & Marketing**
-Posts and participation with Tweets / Retweets / Spaces / PodCasts / Community Calls to help promote IBC, Cosmos, and Better World Blockchain Thesis. We strive to be active in weekly media releases and posts covering but not limited to: Blockchain News / ESG Topics / Announcements / Events / Commentaries / Tech Reviews / Tech Previews
+### A. **Active Publicity & Marketing Coms**
+* Posts and participation with Tweets / Retweets / Spaces / PodCasts / Community Calls to help promote IBC, Cosmos, and Better World Blockchain Thesis. 
+* We strive to be active in weekly media releases and posts covering but not limited to: Blockchain News / ESG Topics / Announcements / Events / Commentaries / Tech Reviews / Tech Previews
+
+> Some validators lean more towards tech, some are great at media. We try to strike a good balance: *tech is the bread, media is the butter*
 
 ### B. **Monthly Medium post on hot topics**
 
