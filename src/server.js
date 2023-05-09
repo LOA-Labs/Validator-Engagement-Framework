@@ -252,7 +252,7 @@ async function generateMarkdownOutline() {
 
     let counter2 = 0;
     for (const subType of parentData.subTypes) {
-      markdown += `### ${intToLetter(counter2++)}. **${subType.attributes.name}**\n${subType.attributes.desc || ""}\n\n`;
+      markdown += `### ${intToLetter(counter2++)}. **${subType.attributes.name.trim()}**\n${subType.attributes.desc || ""}\n\n`;
     }
 
     markdown += '\n';
