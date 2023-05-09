@@ -23,5 +23,5 @@
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
-| 2022-12-07 | LOA Node Toolkit (LNT) Launched | Highly configurable and lightweight Nodejs toolkit for monitoring, governing, and financing validator nodes on Cosmos. | [https://githu...a-node-toolkit](https://github.com/LOA-Labs/loa-node-toolkit) | PG-12, INF-5, PG-14 |
-| 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PG-12 |
+| 2022-12-07 | LOA Node Toolkit (LNT) Launched | Highly configurable and lightweight Nodejs toolkit for monitoring, governing, and financing validator nodes on Cosmos. | [https://githu...a-node-toolkit](https://github.com/LOA-Labs/loa-node-toolkit) | PGS-12, INF-5, PGS-14 |
+| 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGS-12 |

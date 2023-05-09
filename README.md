@@ -13,7 +13,7 @@ This repo is itself a delivered good open to use by the community for tracking d
 
 ## 1. Infrastructure [INF]
 
-### A. **Validator Node**
+### A. **Validator Node Operations**
 - Bare Metal
 - Offshore
 - NVMe
@@ -22,7 +22,7 @@ This repo is itself a delivered good open to use by the community for tracking d
 - Auto-Restaking
 - 10% of earnings directly support Ecological Regeneration
 
-### B. **Relayer Node Operator **
+### B. **Relayer Node Operator**
 Operations between all LOA Chains:
 
 - [Cosmos Hub](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
@@ -55,8 +55,13 @@ Operations between all LOA Chains:
 
 ## 2. Governance [GOV]
 
-### A. **Actively Posting & Proposing Chain Governance**
-
+### A. **Governance: Active Posts, Proposals, Votes**
+* Good Governance increases the value of a Blockchain Ecosystem
+    * Ensures Blockchain Ecosystems operate effectively, securely, and transparently.
+    * Developing a culture around governance processes and community participation is important for maintaining a healthy and engaged community.
+    * Improves user experience for all stakeholders
+    * Allows ecosystem to iterate and evolve efficiently and effectively as markets and technologies change
+    * Source: [https://gov.vs.loalabs.io/](https://gov.vs.loalabs.io/)
 
 ### B. **95%+ Voting Record (since bonded height)**
 
@@ -64,7 +69,7 @@ Operations between all LOA Chains:
 ### C. **Follow and Comment on all Pre-Chain Proposal Discussions**
 
 
-### D. **Help to guide and define culture around **
+### D. **Help to guide and define culture around**
 [Decentralized Blockchain Governance Thesis](https://gov.vs.loalabs.io) best practices
 
 ### E. **Support and help galvanize ReFi initiates in community**
@@ -87,7 +92,7 @@ Weekly media releases and posts.
 
 
 
-## 4. Public Goods [PG]
+## 4. Public Goods [PGS]
 
 ### A. **Building Interchain ReFi Relationships**
 
