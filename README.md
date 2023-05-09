@@ -134,8 +134,11 @@ Our conviction is that blockchain's real promise is its capacity to foster benef
   * https://www.refibysouth.com/
   * https://www.refiindia.com/refi-india-summit
 
-### C. **[LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit) Open Sourced**
-
+### C. **Open Source Code & Docs**
+* [LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit)
+* [Validator Engagement Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework)
+* [Decentralized Blockchain Governance](https://github.com/LOA-Labs/Decentralized-Blockchain-Governance/)
+* [Validator CMS](https://github.com/LOA-Labs/validator-cms/) TBR
 
 ### D. **CosmJS Development Support & Contributions**
 
