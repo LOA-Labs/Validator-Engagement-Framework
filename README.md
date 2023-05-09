@@ -1,21 +1,19 @@
-# Validator Engagement Framework
-
 This public repo outlines the [LOA Labs](https://loalabs.io) Validator Engagement Framework
 
 Validators are key contributors to blockchain protocols and must perform to high levels of standards to help achieve the success of the network. 
 
-An a highly valued validator does more than just meet the technical requirements of node operation; a blockchain is also a community, a business enterprise, a public service, a scientific experiment, a social experiment, and platform for innovation. 
+A highly valued validator does more than just meet the technical requirements of node operation; a blockchain is also a community, a business enterprise, a public service, a scientific experiment, a social experiment, and a platform for innovation. 
 
 The engagement outline below covers the multiple types of services that LOA Labs provides as a validator and active member of the community. 
 
 This public repo outlines how LOA Labs validator engages with each chain and logs goods and services delivered. Meeting all of these metrics is the objective, however service and availability may be subject to variation due to technical limitations of some blockchains and/or community governance. 
 
-This repo is itself a delivered good open to use by the community for tracking deliverables. It logs contributions, public goods and services delivered. This repo is itself a delivered good open for use by the community for tracking and publicizing their own deliverables.
+This repo is itself a delivered good open to use by the community for tracking deliverables. It logs contributions, public goods and services delivered. This repo is itself a delivered good open for use by the community for tracking and publicizing their own deliverables. Fork it.
 
-# 1. Infrastructure **[IN]**
 
-## A. LOA Labs Validator Node:
+## 1. Infrastructure [INF]
 
+### A. **Validator Node**
 - Bare Metal
 - Offshore
 - NVMe
@@ -24,7 +22,8 @@ This repo is itself a delivered good open to use by the community for tracking d
 - Auto-Restaking
 - 10% of earnings directly support Ecological Regeneration
 
-## B. Relayer Node Operator between all LOA Chains:
+### B. **Relayer Node Operator **
+Operations between all LOA Chains:
 
 - [Cosmos Hub](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
 - [Regen](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h)
@@ -37,12 +36,13 @@ This repo is itself a delivered good open to use by the community for tracking d
 - (Archway)
 - (Althea)
 
-## C. Public RPC/API Services
+### C. **Public RPC/API Services**
 
-## D. Public Snapshot/Statesync Services
 
-## E. Monitoring Stack
+### D. **Public Snapshot/Statesync Services**
 
+
+### E. **Monitoring Stack**
 - Prometheus / Grafana
 - [LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit):
   - Daily Auto-Restaking / Network re-investing
@@ -51,40 +51,61 @@ This repo is itself a delivered good open to use by the community for tracking d
   - Watch Whale movements (staking and txs)
 - [Tenderduty](https://github.com/blockpane/tenderduty)
 
-# 2. Governance **[G]**
 
-## A. Actively Posting & Proposing Chain Governance
 
-## B. 95%+ Voting Record (since bonded height)
+## 2. Governance [GOV]
 
-## C. Follow and Comment on all Pre-Chain Proposal Discussions
+### A. **Actively Posting & Proposing Chain Governance**
 
-## D. Support and help galvanize ReFi initiates in community
 
-## D. Help to guide and define culture around [Decentralized Blockchain Governance](https://gov.vs.loalabs.io) best practices
+### B. **95%+ Voting Record (since bonded height)**
 
-# 3. Public Goods **[PG]** 
 
-## A. Building Interchain ReFi Relationships
+### C. **Follow and Comment on all Pre-Chain Proposal Discussions**
 
-## B. Constantly seeking out and forming PGs, ReFi, Impact project opportunities
 
-## C. [LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit) Open Sourced
+### D. **Help to guide and define culture around **
+[Decentralized Blockchain Governance Thesis](https://gov.vs.loalabs.io) best practices
 
-## D. CosmJS Development Support & Contributions
+### E. **Support and help galvanize ReFi initiates in community**
 
-## E. CosmWasm ReFi Development Support & Contributions
 
-## F. % Validator earnings directly support ReFi
 
-# 4. **[M]** Media
 
-## A. Weekly Tweets / Retweets / Spaces / Community Calls
+## 3. Media [MDI]
 
+### A. **Tweets / Retweets / Spaces / Community Calls**
+Weekly media releases and posts. 
 - Chain News / Announcements / Events
 - Commentaries / Reviews / Previews
 
-## B. Monthly Medium post on hot topics
+### B. **Monthly Medium post on hot topics**
 
-## C. Quarterly Twitter Spaces discussion to review ecosystem updates / progress
+
+### C. **Quarterly Twitter Spaces discussion to review ecosystem updates / progress**
+
+
+
+
+## 4. Public Goods [PG]
+
+### A. **Building Interchain ReFi Relationships**
+
+
+### B. **Constantly seeking out and forming PGs, ReFi, Impact project opportunities**
+
+
+### C. **[LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit) Open Sourced**
+
+
+### D. **CosmJS Development Support & Contributions**
+
+
+### E. **CosmWasm ReFi Development Support & Contributions**
+
+
+### F. **% of Validator earnings directly support ReFi**
+
+
+
 
