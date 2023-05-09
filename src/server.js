@@ -11,7 +11,7 @@ app.get('/generate-changelog', async (req, res) => {
   try {
     const {
       data: { data: tasks },
-    } = await axios.get('http://167.99.56.130:1337/api/tasks?populate=networks.org,types.parent&sort=date:ASC&pagination[page]=1&pagination[pageSize]=500');
+    } = await axios.get('http://localhost:1337/api/tasks?populate=networks.org,types.parent&sort=date:ASC&pagination[page]=1&pagination[pageSize]=500');
 
     const tasksByChainId = {};
 
@@ -83,8 +83,15 @@ ${network.desc || ""}
         })
         .join('\n');
 
-      await fs.writeFile(changelogPath, changelogHeader + changelogContent);
+      // await fs.writeFile(changelogPath, changelogHeader + changelogContent);
     }
+
+
+
+
+    //write any pages of the repo
+    const { data } = await axios.get("http://localhost:1337/api/pages");
+    await writeDataToFile(data.data);
 
     exec('git pull && git add -A && git commit -m "Build Logs" && git push', (error, stdout, stderr) => {
       if (error) {
@@ -110,6 +117,20 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+async function writeDataToFile(data) {
+  for (const item of data) {
+    const { filepath, content, title } = item.attributes;
+    try {
+      const parsedContent = await replaceBracketedText(content);
+      await fs.writeFile(filepath, parsedContent);
+      console.log(`Successfully wrote to file: ${filepath}`);
+    } catch (err) {
+      console.error(`Error writing to file: ${filepath}\n${err}`);
+    }
+  }
+}
+
 
 function extractRelationalData(root, relationBranches) {
   if (!root || !root.attributes || relationBranches.length === 0) {
@@ -157,7 +178,11 @@ function replaceUrlsWithMarkdownLinks(text) {
   });
 }
 
+
+
+
 async function deleteChangelogFiles(dirPath) {
+
   try {
     const files = await fs.readdir(dirPath);
     const changelogFiles = files.filter((file) => file.startsWith('_'));
@@ -174,4 +199,77 @@ async function deleteChangelogFiles(dirPath) {
 
 function replaceNewlines(text, replacement = '<br>') {
   return text.replace(/\r?\n|\r/g, replacement);
+}
+
+
+async function replaceBracketedText(inputStr) {
+  const regex = /{(\w+)}/g;
+  let match;
+  let result = inputStr;
+
+  while ((match = regex.exec(inputStr)) !== null) {
+    if (match[1] && typeof customFunctions[match[1]] === "function") {
+      const replacement = await customFunctions[match[1]]();
+      result = result.replace(match[0], replacement);
+    }
+  }
+
+  return result;
+}
+
+
+// Define your custom object with the required functions
+const customFunctions = {
+  TaskSubTypesOutline: async () => {
+    return await generateMarkdownOutline();
+  }
+};
+
+async function generateMarkdownOutline() {
+  const subTypes = await fetchTaskSubTypes();
+  const groupedSubTypes = subTypes.reduce((acc, subType) => {
+    const parentId = subType.attributes.parent.data.id;
+    if (!acc[parentId]) {
+      acc[parentId] = {
+        parentName: subType.attributes.parent.data.attributes.name,
+        parentAbbr: subType.attributes.parent.data.attributes.abbreviation,
+        subTypes: [],
+      };
+    }
+    acc[parentId].subTypes.push(subType);
+    return acc;
+  }, {});
+
+  let markdown = '';
+  let counter = 1;
+
+  for (const parent in groupedSubTypes) {
+    const parentData = groupedSubTypes[parent];
+    markdown += `\n## ${counter++}. ${parentData.parentName} [${parentData.parentAbbr}]\n\n`;
+
+    let counter2 = 0;
+    for (const subType of parentData.subTypes) {
+      markdown += `### ${intToLetter(counter2++)}. **${subType.attributes.name}**\n${subType.attributes.desc || ""}\n\n`;
+    }
+
+    markdown += '\n';
+  }
+
+  return markdown;
+}
+
+async function fetchTaskSubTypes() {
+  try {
+    const { data } = await axios.get(
+      'http://localhost:1337/api/task-sub-types?populate=*&sort=date:sort:ASC:&pagination[page]=1&pagination[pageSize]=100'
+    );
+    return data.data;
+  } catch (err) {
+    console.error(`Error fetching task sub-types: ${err}`);
+    return [];
+  }
+}
+
+function intToLetter(num) {
+  return String.fromCharCode(65 + num);
 }
