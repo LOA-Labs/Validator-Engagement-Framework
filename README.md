@@ -22,19 +22,19 @@ This repo is itself a delivered good open to use by the community for tracking d
 - Auto-Restaking
 - 10% of earnings directly support Ecological Regeneration
 
-### B. **Relayer Node Operator**
-Operations between all LOA Chains:
-
-- [Cosmos Hub](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
-- [Regen](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h)
-- [Juno](https://www.mintscan.io/juno/validators/junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn)
-- [Gravity Bridge](https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1ggydhncd8mwx9hgycqf7zqqhqce3f23d7ecppn)
-- [Quicksilver](https://www.mintscan.io/quicksilver/validators/quickvaloper1clmvzgshr45ntmf2uapl2uyaen2qrh2mc04usz)
-- [Stargaze](https://www.mintscan.io/stargaze/validators/starsvaloper16gzehchwqzl5p2gmx2jfnf22hk2tw3n8v5mxad)
-- [Kyve](https://www.mintscan.io/kyve/validators/kyvevaloper1fkm6cskfz6s0dyeet0pmmt2tyf2mrjdf9hhvgs)
-- [Ixo](https://www.mintscan.io/ixo/validators/ixovaloper1wy8l75dr2r5g6s5dwnvq0az0w3carqdml5agp9)
-- (Archway)
-- (Althea)
+### B. **Relayer Node Ops**
+* Relaying encourages IBC transactions and benefits the interchain
+  * LOA looks to operate [Hermes relayer](https://github.com/informalsystems/hermes) clients between all chains we validate:
+    * [Cosmos Hub](https://www.mintscan.io/cosmos/validators/cosmosvaloper18624s66va2yh3fhf3tamnexdy69m460zzcdchd)
+    - [Regen](https://www.mintscan.io/regen/validators/regenvaloper1tdc350ylkjfvqk4mjs6rqqksgl2wfghz2fx95h)
+    - [Juno](https://www.mintscan.io/juno/validators/junovaloper1zhgppyrs988x4spqxqchflg74qusw2cxxeqmnn)
+    - [Gravity Bridge](https://www.mintscan.io/gravity-bridge/validators/gravityvaloper1ggydhncd8mwx9hgycqf7zqqhqce3f23d7ecppn)
+    - [Quicksilver](https://www.mintscan.io/quicksilver/validators/quickvaloper1clmvzgshr45ntmf2uapl2uyaen2qrh2mc04usz)
+    - [Stargaze](https://www.mintscan.io/stargaze/validators/starsvaloper16gzehchwqzl5p2gmx2jfnf22hk2tw3n8v5mxad)
+    - [Kyve](https://www.mintscan.io/kyve/validators/kyvevaloper1fkm6cskfz6s0dyeet0pmmt2tyf2mrjdf9hhvgs)
+    - [Ixo](https://www.mintscan.io/ixo/validators/ixovaloper1wy8l75dr2r5g6s5dwnvq0az0w3carqdml5agp9)
+    - (Archway)
+    - (Althea)
 
 ### C. **Public RPC/API Services**
 
