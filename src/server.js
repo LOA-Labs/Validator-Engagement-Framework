@@ -122,13 +122,17 @@ async function writeDataToFile(data) {
     const { filepath, content, title } = item.attributes;
     try {
       const parsedContent = await replaceBracketedText(content);
-      await fs.writeFile(filepath, parsedContent);
+
+      const absoluteFilepath = path.resolve(__dirname, '..', filepath);
+      console.log(absoluteFilepath)
+      await fs.writeFile(absoluteFilepath, parsedContent);
       console.log(`Successfully wrote to file: ${filepath}`);
     } catch (err) {
       console.error(`Error writing to file: ${filepath}\n${err}`);
     }
   }
 }
+
 
 
 function extractRelationalData(root, relationBranches) {
