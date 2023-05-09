@@ -78,7 +78,7 @@ ${network.desc || ""}
 
       const changelogContent = tasksByChainId[chainId]
         .map(({ task: { attributes: { date, types, title, desc, link } } }) => {
-          console.log(`Adding ${title} to changelog`)
+          // console.log(`Adding ${title} to changelog`)
           return `| ${date} | ${title} | ${replaceNewlines(replaceUrlsWithMarkdownLinks(desc))} | [${truncateText(link, 30)}](${link}) | ${makeTypes(types)} |`;
         })
         .join('\n');
