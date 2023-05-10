@@ -101,7 +101,7 @@ This repo is itself a delivered good open to use by the community for tracking d
 
 
 
-## 4. Public Goods [PGS]
+## 4. Public Goods [PGs]
 
 ### A. **Building Interchain ReFi Relationships**
 Our conviction is that blockchain's real promise is its capacity to foster beneficial impacts for individuals and the environment. This is the principle that underpins our "Better World Blockchain" ethos around which we've constructed our operations. We are devoted to collaborating with entities and institutions that resonate with our outlook and are wholeheartedly committed to the development of blockchains for a better world.
