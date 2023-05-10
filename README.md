@@ -116,11 +116,11 @@ Our conviction is that blockchain's real promise is its capacity to foster benef
 
 ### B. **Creating and Facilitating Public Goods / ReFi / Impact Projects**
 * We are always on the look out for opportunities to help amplify and coordinate projects within the Public Goods space 
-* Some recent LOA projects:
-  * https://bicowg.org/
-  * https://bxc.network/
-  * https://www.refibysouth.com/
-  * https://www.refiindia.com/refi-india-summit
+* A few recent LOA projects:
+  * [https://bicowg.org/](https://bicowg.org/)
+  * [https://bxc.network/](https://bxc.network/)
+  * [https://www.refibysouth.com/](https://www.refibysouth.com/)
+  * [https://www.refiindia.com/refi-india-summit](https://www.refiindia.com/refi-india-summit)
 
 ### C. **Open Source Code & Docs**
 * [LOA Node Toolkit](https://github.com/LOA-Labs/loa-node-toolkit)
