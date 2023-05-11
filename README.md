@@ -70,7 +70,10 @@ This repo is itself a delivered good open to use by the community for tracking d
 ### C. **Follow and Comment on all Pre-Chain Proposal Discussions**
 
 
-### D. **Governance & Community Guidelines**
+### D. **Support and help galvanize ReFi initiates in community**
+
+
+### E. **Governance & Community Guidelines**
 * Facilitating best practices for developing a culture of good governance:
   * Respectful and constructive discourse that is backed with facts and empirical evidence
   * Acknowledging and valuing the opinions and views of others
@@ -79,9 +82,6 @@ This repo is itself a delivered good open to use by the community for tracking d
   * No use of abusive language or personal attacks
   * Keep in mind the guidelines and ethical value of decentralization and transparency
   * Source: [Decentralized Blockchain Governance Guidelines](https://gov.vs.loalabs.io/02-culture)
-
-### E. **Support and help galvanize ReFi initiates in community**
-
 
 
 
