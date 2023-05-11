@@ -264,7 +264,7 @@ async function generateMarkdownOutline() {
 async function fetchTaskSubTypes() {
   try {
     const { data } = await axios.get(
-      'http://localhost:1337/api/task-sub-types?populate=*&sort=sort:ASC:&pagination[page]=1&pagination[pageSize]=100'
+      'http://localhost:1337/api/task-sub-types?populate=*&sort=sort:ASC&pagination[page]=1&pagination[pageSize]=100'
     );
     return data.data;
   } catch (err) {
