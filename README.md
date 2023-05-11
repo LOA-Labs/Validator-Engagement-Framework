@@ -103,13 +103,13 @@ This repo is itself a delivered good open to use by the community for tracking d
 
 ## 4. Public Goods [PGs]
 
-### A. **Building Interchain ReFi Relationships**
-Our conviction is that blockchain's real promise is its capacity to foster beneficial impacts for individuals and the environment. This is the principle that underpins our "Better World Blockchain" ethos around which we've constructed our operations. We are devoted to collaborating with entities and institutions that resonate with our outlook and are wholeheartedly committed to the development of blockchains for a better world.
+### A. **Building ReFi Relationships: InterChain & InterOrg**
+Our conviction is that blockchain's real promise is its capacity to foster beneficial impacts for individuals and the environment. This is the principle that underpins our [Better World Blockchain Thesis](https://medium.com/@LOA_Labs/loa-labs-better-world-blockchain-climate-thesis-d626790fc4a7), an ethos around which we've constructed our operations. We are devoted to collaborating with entities and institutions that resonate with our outlook and are wholeheartedly committed to the development of blockchains for a better world.
 
 | <span>  | <span>  |
 | --- | --- |
 | * Circular Economy | * Corporate ESG Accountability |
-| * Donations & Philantropy | * Financial Inclusion |
+| * Donations & Philanthropy | * Financial Inclusion |
 | * Biodiversity | * Democracy & Governance |
 | * Supply Chain Traceability | * Carbon Markets |
 | * Renewable Energy | * Decentralized Science |
