@@ -23,6 +23,7 @@ Cosmos SDK-based network providing cross-chain decentralized data lake solutions
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-05-22 | Prop 4  v1.2.0 Software Upgrade | Review code changes. Testnet upgrade. Mainnet upgrade. Vote on prop. | [https://www.m...04B1AF30BC347F](https://www.mintscan.io/kyve/txs/D7D1F92963238662A85CE379690E5A453F966AA7C4B93FFD9904B1AF30BC347F) | GOV-6, PGs-13 |
 | 2023-05-09 | Network Upgrade / Code Review v1.1.1 | Review code, present for upgrade coordination and support. | [https://githu...ses/tag/v1.1.1](https://github.com/KYVENetwork/chain/releases/tag/v1.1.1) | INF-1 |
 | 2023-05-01 | v1.1.0 Software Upgrade Mainnet Vote and Upgrade | Review code, vote, present for support upgrade at block height.  | [https://www.m...459C119D4B3310](https://www.mintscan.io/kyve/txs/4894B6B59ADBD6FE8F1B359590279BE156E8FB2117FDF61453459C119D4B3310) | GOV-7, INF-1 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |
