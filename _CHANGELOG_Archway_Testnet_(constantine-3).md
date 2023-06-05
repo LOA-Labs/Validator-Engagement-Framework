@@ -18,7 +18,7 @@ Archway is a permissionless smart contract blockchain designed to incentivize th
 * Docs [https://docs.archway.io/](https://docs.archway.io/)
 * Explorer [https://testn...rchway-testnet](https://testnet.mintscan.io/archway-testnet)
 * Validator Status [https://testn...44cdw3fq0wjv3s](https://testnet.mintscan.io/archway-testnet/validators/archwayvaloper174q2pkqphx427fsers84ngup44cdw3fq0wjv3s)
-* Delegate to LOA Labs: [Earn Rewards via Keplr](null)
+null
 
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |

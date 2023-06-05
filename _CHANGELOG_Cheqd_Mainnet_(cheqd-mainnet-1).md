@@ -18,7 +18,7 @@
 * Docs [https://docs.cheqd.io/](https://docs.cheqd.io/)
 * Explorer [https://explo....io/validators](https://explorer.cheqd.io/validators)
 * Validator Status n/a
-* Delegate to LOA Labs: [Earn Rewards via Keplr](null)
+null
 
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |

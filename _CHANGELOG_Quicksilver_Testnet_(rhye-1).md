@@ -18,7 +18,7 @@ https://github.com/ingenuity-build/testnets/blob/main/rhye/README.md
 * Docs [https://docs.quicksilver.zone/](https://docs.quicksilver.zone/)
 * Explorer [https://testn...xplorers.guru/](https://testnet.quicksilver.explorers.guru/)
 * Validator Status [https://testn...mnu6544avz8lkl](https://testnet.quicksilver.explorers.guru/validator/quickvaloper16u33re3e26pzp5tfyxh805qqmnu6544avz8lkl)
-* Delegate to LOA Labs: [Earn Rewards via Keplr](null)
+null
 
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
