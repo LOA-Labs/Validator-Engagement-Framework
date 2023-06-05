@@ -105,7 +105,7 @@ ${network.delegate && `* Delegate to LOA Labs: [Earn Rewards via Keplr](${networ
     });
 
 
-    res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\n`);
+    res.status(200).send(`<style>body{background:#999;}</style>Changelogs generated and pushed to the repository\n\n<a href='https://framework.vs.loalabs.io/'>Site</a>`);
 
   } catch (error) {
     console.error(error);
