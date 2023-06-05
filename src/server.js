@@ -70,12 +70,13 @@ ${network.desc || ""}
 * Docs ${replaceUrlsWithMarkdownLinks(org.docs)}
 * Explorer ${replaceUrlsWithMarkdownLinks(network.explorer)}
 * Validator Status ${replaceUrlsWithMarkdownLinks(network.status)}
-* Delegate to LOA Labs: [Earn Rewards via Keplr](${network.delegate})
+${network.delegate && `* Delegate to LOA Labs: [Earn Rewards via Keplr](${network.delegate})`}
 
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |\n`
 
+      let letter
       const changelogContent = tasksByChainId[chainId]
         .map(({ task: { attributes: { date, types, title, desc, link } } }) => {
           // console.log(`Adding ${title} to changelog`)
