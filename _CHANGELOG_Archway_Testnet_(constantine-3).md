@@ -1,6 +1,6 @@
-# Archway Testnet (constantine-2)
+# Archway Testnet (constantine-3)
 
-Archway is a persmissionless smart contract blockchain designed to incentivize the deployments of dApps. 
+Archway is a permissionless smart contract blockchain designed to incentivize the deployments of dApps. 
 
 ## Archway (Phi Labs) Organization Resources
 
@@ -12,7 +12,7 @@ Archway is a persmissionless smart contract blockchain designed to incentivize t
 * Telegram n/a
 * Youtube n/a
 
-## constantine-2 Chain Resources
+## constantine-3 Chain Resources
 
 * Repo [https://githu...rchway-network](https://github.com/archway-network)
 * Docs [https://docs.archway.io/](https://docs.archway.io/)
