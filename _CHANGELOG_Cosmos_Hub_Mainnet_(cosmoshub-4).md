@@ -27,6 +27,7 @@ LOA Labs will position itself within The Hub as the primary instigator, collabor
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-05 | Prop 797 Increase Active Set - Vote Abstain | Increasing the val set is necessarily a good thing as it has been proven that arbitrary val set expansions don’t necessarily increase decentralization and just makes the business model a bit tougher for the vals in the set. Voting ABSTAIN, even though this actually might hurt us given we are at the bottom. | [https://www.m...75CF823CBBD0BE](https://www.mintscan.io/cosmos/txs/1E11EF66440D567EF57107F00D054D4F492CD797D91BA26B8275CF823CBBD0BE) | GOV-7, GOV-6 |
 | 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-08 | Network Upgrade v9.1.0 | Code review and present at upgrade for node restarts.  | [https://githu...ses/tag/v9.1.0](https://github.com/cosmos/gaia/releases/tag/v9.1.0) | INF-1 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |
