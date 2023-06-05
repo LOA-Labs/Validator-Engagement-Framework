@@ -27,6 +27,7 @@ LOA Labs will position itself within The Hub as the primary instigator, collabor
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-08 | Network Upgrade v9.1.0 | Code review and present at upgrade for node restarts.  | [https://githu...ses/tag/v9.1.0](https://github.com/cosmos/gaia/releases/tag/v9.1.0) | INF-1 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |
 | 2023-04-20 | [Iqlusion](https://twitter.com/iqlusioninc) LSM: digest and comment on discussion | Review and discuss important changes proposed to The Hub.  | [ https://foru...7?u=alphabiota]( https://forum.cosmos.network/t/signaling-proposal-draft-add-liquid-staking-module-to-the-cosmos-hub/10368/57?u=alphabiota) | GOV-6 |

@@ -23,6 +23,7 @@ Open Source Application Network for the Inter-chain Era. Secure. Scalable. Permi
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-25 | Prop 294 Stride Pool Funding | Abstained from CPS to fund particular liquid staking type.  | [https://www.m...height=8421647](https://www.mintscan.io/juno/txs/ED1F17EBA5904F6699F217A97DC994793C7B6FBA0BD3A10367C028A29387C9CA?height=8421647) | GOV-6 |
 | 2023-05-03 | Vote #287 1/6 Communications SubDAO conferences budget | YES on all in Series. ✅ In support of Juno having a strong presence in this awesome line up of innovative blockchain conferences.  | [https://www.m...height=8108856](https://www.mintscan.io/juno/txs/798C1F805B303AB0A8362914B4DA5619CDE0849965FCD3ED9073107F88CBF0A0?height=8108856) | GOV-7 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |

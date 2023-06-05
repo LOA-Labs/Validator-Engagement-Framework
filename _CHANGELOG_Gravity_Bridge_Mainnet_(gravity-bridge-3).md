@@ -23,6 +23,7 @@ An open, decentralized bridge that unlocks the power of interoperability & liqui
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-03 | Prop 174 Proposer: USDC.grv/USDT.grv Stableswap LP | Saw the need for a stable swap of gravity bridge assets. Proposed new LP on Crescent. | [https://www.m.../proposals/174](https://www.mintscan.io/gravity-bridge/proposals/174) | GOV-6, GOV-8 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |
 | 2023-04-11 | Decentralized Blockchain Governance Thesis (Best Practices) | Aims to outline the key components and best practices in blockchain governance, at mid-to-high level, without getting too detailed about specifics which may vary from one community to the next.<br><br>Document is iterative and collaborative; it covers a non-exhaustive list of components that are important to governance; your suggestions and contributions are welcome. | [https://gov.vs.loalabs.io/](https://gov.vs.loalabs.io/) | GOV-9, GOV-6, PGs-12 |

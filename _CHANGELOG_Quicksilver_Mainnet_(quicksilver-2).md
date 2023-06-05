@@ -23,6 +23,7 @@ Liquid Staking solutions provider to Cosmos Zones.
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-18 | Prop 33 Proposer | By increasing max gas and max bytes, more transactions, including ICA txs, can be included in blocks. Chain needed this change for Quicksilver liquid staking, LOA helped to get it done. | [https://www.m...n/proposals/33](https://www.mintscan.io/regen/proposals/33) | GOV-6, GOV-9 |
 | 2023-05-13 | Prop 13 Vote: v1.2.10 Upgrade | Review code changes; changes reviewed and approved by two QS core dev members. Yes on upgrade. <br><br>Fixes # (issue)<br><br>closes stargaze.delegate channel for RR fix logic to be invoked | [https://www.m...012209E9ECBFF9](https://www.mintscan.io/quicksilver/txs/7E530F3DA0EE225B02FB9A4604AB29D5EFBDC7AB324B54F0AB012209E9ECBFF9) | GOV-6, PGs-13 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |

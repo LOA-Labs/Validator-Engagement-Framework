@@ -23,6 +23,7 @@ Regen network mainnet, leading the way in Regenerative Financial solutions and L
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-18 | Prop 33 Proposer | By increasing max gas and max bytes, more transactions, including ICA txs, can be included in blocks. Chain needed this change for Quicksilver liquid staking, LOA helped to get it done. | [https://www.m...n/proposals/33](https://www.mintscan.io/regen/proposals/33) | GOV-6, GOV-9 |
 | 2023-05-05 | Prop #30 Vote, Support Carbon Offset | LOA Labs voted YES and supports proceeding with carbon offsetting through NCT credits, which fulfills major milestones for Regen Network's value proposition for planetary regeneration. 🌎💚 | [https://www.m...eight=10503961](https://www.mintscan.io/regen/txs/7AD6458309DC94916492AD1FAE27C8991C187466BEDF79A9B7D0A3DAA46080B7?height=10503961) | GOV-6, GOV-8, PGs-11 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |
