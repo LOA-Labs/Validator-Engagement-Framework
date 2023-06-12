@@ -16,8 +16,8 @@ Althea is network company providing a new way to access broadband internet that 
 
 * Repo [https://github.com/althea-net](https://github.com/althea-net)
 * Docs [https://githu...-net/community](https://github.com/althea-net/community)
-* Explorer [https://www.s...ers.com/althea](https://www.skynetexplorers.com/althea)
-* Validator Status [https://www.s...7f8a5k7h6mdadr](https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
+* Explorer [https://explo....online/althea](https://explorer.mcbnode.online/althea)
+* Validator Status [https://althe...7f8a5k7h6mdadr](https://althea.explorers.guru/validator/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
 * Delegate to LOA Labs: [Earn Rewards via Keplr](https://www.skynetexplorers.com/althea/staking/altheavaloper14uue66xwgelek0wcswtq0dlk7f8a5k7h6mdadr)
 
 ## Activities / Contributions
