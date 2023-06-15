@@ -23,6 +23,7 @@ An open, decentralized bridge that unlocks the power of interoperability & liqui
 ## Activities / Contributions
 | Date | Title | Desc | Link | Type |
 | :----------- | :------------ | :-------------------------------- | :---- | :---- |
+| 2023-06-15 | Prop 180: Fund development of auction module. | Support public goods, tokenomics upgrade module, and project development process in cosmos zones.  | [https://www.m.../proposals/180](https://www.mintscan.io/gravity-bridge/proposals/180) | GOV-6, PGs-12 |
 | 2023-06-04 | Relayer Upgrades and Channel Maintenance | Check wallet balances, check connections. | [https://www.m...ver/channel-19](https://www.mintscan.io/regen/relayers/channel-63/quicksilver/channel-19) | INF-2, INF-1 |
 | 2023-05-03 | Prop 174 Proposer: USDC.grv/USDT.grv Stableswap LP | Saw the need for a stable swap of gravity bridge assets. Proposed new LP on Crescent. | [https://www.m.../proposals/174](https://www.mintscan.io/gravity-bridge/proposals/174) | GOV-6, GOV-8 |
 | 2023-04-28 | Release Validator Engagement Framework | Repo outlines how LOA Labs validator engages with each chain and logs of delivered goods and services. Manages tracking and records of events.  | [https://githu...ment-Framework](https://github.com/LOA-Labs/Validator-Engagement-Framework) | PGs-12 |
